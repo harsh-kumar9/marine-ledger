@@ -1,0 +1,16 @@
+{
+  "steps": 2200,
+  "synthetic_validation": {
+    "exact": 0.8625,
+    "cer": 0.1157495256166983,
+    "counts": {
+      "generated": {
+        "exact": 138,
+        "n": 160,
+        "edits": 61,
+        "chars": 527
+      }
+    }
+  },
+  "sha256": "21f4b89a413545b41c17ea4d28f5ddc83b03739b88fbc61e323bd332f7b798d2"
+}

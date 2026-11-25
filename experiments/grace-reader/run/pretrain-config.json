@@ -1,0 +1,33 @@
+{
+  "configuration": {
+    "seed": 1776,
+    "batch_size": 48,
+    "synthetic_examples": 12288,
+    "pretrain_steps": 2200,
+    "adapt_steps": 240,
+    "validate_every": 20,
+    "pretrain_lr": 0.0014,
+    "adapt_lr": 0.00025,
+    "real_fraction": 0.67,
+    "decoder": "CTC greedy, collapse repeats before dropping blanks"
+  },
+  "fonts": {
+    "DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+    "DejaVuSans-BoldOblique.ttf": "6edf0283160186af451cbee71e7b845f2e4cabf264bb992ce668c83c25465e6f",
+    "DejaVuSans-Oblique.ttf": "ccdf74b350f11fd3dd5774de50e5e6346a1a5da1f5b7d5fb83590665e97a5213",
+    "DejaVuSans.ttf": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+    "DejaVuSansDisplay.ttf": "82099dcfba5aa868cdfc27451989525fe3292f737fb3c9e0328ce9cef59652f6",
+    "DejaVuSansMono-Bold.ttf": "3a3c502eeff669a231549e80df9f7c49de109bafe303170409e905d0b31a38fe",
+    "DejaVuSansMono-BoldOblique.ttf": "a5251173370e30760e6919711dcd33e149d216ca4814eb74332bda03fcc7e834",
+    "DejaVuSansMono-Oblique.ttf": "3d7955616e69721f7edb8e1b7a580f8fbd7d737111c6b54266ddc1d9ef13202f",
+    "DejaVuSansMono.ttf": "c805f9436dbc268644c1d9584f01a601a653e028e08fd74b9b949f6cf8304d88",
+    "DejaVuSerif-Bold.ttf": "847b33e13925f19ff87e4d934d6b3cf7cac35ce16424f6f670e40c2f377cf2df",
+    "DejaVuSerif-BoldItalic.ttf": "d93efec7a9d2e826768d1a2ee95b95870e15e29599a84f3484af1de1cec2e181",
+    "DejaVuSerif-Italic.ttf": "3e7994fbc54fa10ce3352a42d548fadd7d9cadb69cb1109bc9d960f6dac57f04",
+    "DejaVuSerif.ttf": "8f2c103bfa3fd5de71f1b92b18f21906b5a26871fb7e19a9a4c9af539c3cc7ab",
+    "DejaVuSerifDisplay.ttf": "2914f32e47c777c27be5677afae7db4de79f9e45de6fc9097d9949c23c14f7d5",
+    "cmr10.ttf": "4dd9761b058c009db9b2145f55ee6617d093c273dd3d6c5b3e43ff6110fa9bf6"
+  },
+  "torch": "2.11.0+cu129",
+  "device": "NVIDIA RTX A6000"
+}
