@@ -22,7 +22,7 @@ ENCODE = {s: i + 1 for i, s in enumerate(ALPHABET)}
 HEIGHT, WIDTH = 32, 160
 ROOT = Path(__file__).resolve().parent
 CONFIG = {
-    'seed': 1776, 'batch_size': 48, 'synthetic_examples': 6144, 'pretrain_steps': 650,
+    'seed': 1776, 'batch_size': 48, 'synthetic_examples': 12288, 'pretrain_steps': 2200,
     'adapt_steps': 240, 'validate_every': 20, 'pretrain_lr': 0.0014, 'adapt_lr': 0.00025,
     'real_fraction': 0.67, 'decoder': 'CTC greedy, collapse repeats before dropping blanks',
 }
@@ -109,19 +109,28 @@ def prepare(image):
 
 
 def synthetic(rng, available):
-    value = ''.join(rng.choice(list(string.digits), size=int(rng.integers(1, 6))))
+    digits = ''.join(rng.choice(list(string.digits), size=int(rng.integers(1, 6))))
+    prefix, suffix = '', ''
     if rng.random() < .23:
-        value = rng.choice(list(string.ascii_uppercase)) + value
+        prefix = str(rng.choice(list(string.ascii_uppercase)))
     if rng.random() < .16:
-        value += rng.choice(list(string.ascii_uppercase))
+        suffix = str(rng.choice(list(string.ascii_uppercase)))
+    value = prefix + digits + suffix
+    printed = prefix
+    if prefix:
+        printed += str(rng.choice(['', '', ' ', '. ', '-']))
+    printed += digits
+    if suffix:
+        printed += str(rng.choice(['', '', ' ']))
+        printed += suffix.lower() if rng.random() < .5 else suffix
     size = int(rng.integers(18, 43))
     font = font_at(available[int(rng.integers(len(available)))], size)
-    left, top, right, bottom = font.getbbox(value)
+    left, top, right, bottom = font.getbbox(printed)
     bg = int(rng.integers(179, 256))
     color = int(rng.integers(5, 111))
     image = Image.new('L', (max(2, right-left+12), max(4, bottom-top+10)), bg)
     draw = ImageDraw.Draw(image)
-    draw.text((6-left, 5-top), value, fill=color, font=font)
+    draw.text((6-left, 5-top), printed, fill=color, font=font)
     if rng.random() < .45:
         image = image.rotate(rng.uniform(-2.5, 2.5), resample=Image.Resampling.BILINEAR, fillcolor=bg)
     if rng.random() < .45:
@@ -274,8 +283,10 @@ def run(args):
         refs = [{'text':e[2],'expedition':'generated'} for e in synthetic_val]
         model = Reader().to(device)
         optimizer = torch.optim.AdamW(model.parameters(), lr=CONFIG['pretrain_lr'])
+        schedule = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[1400, 1900], gamma=.4)
         for step in range(1, CONFIG['pretrain_steps'] + 1):
             loss = fit_batch(model,optimizer,random.choices(synthetic_train,k=CONFIG['batch_size']),device)
+            schedule.step()
             if step % 100 == 0 or step == CONFIG['pretrain_steps']:
                 metrics=measure(refs,predict(model,synthetic_val,device))
                 print('pretrain',step,'loss',loss,'synthetic_validation',metrics,flush=True)
