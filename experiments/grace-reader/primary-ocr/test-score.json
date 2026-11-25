@@ -1,0 +1,32 @@
+{
+  "macro_exact_accuracy": 0.8387096774193549,
+  "macro_cer": 0.07446808510638298,
+  "expeditions": {
+    "challenger": {
+      "exact": 26,
+      "n": 31,
+      "exact_accuracy": 0.8387096774193549,
+      "edits": 7,
+      "characters": 94,
+      "cer": 0.07446808510638298,
+      "by_target_length": {
+        "1": {
+          "exact": 1,
+          "n": 1
+        },
+        "2": {
+          "exact": 1,
+          "n": 2
+        },
+        "3": {
+          "exact": 21,
+          "n": 23
+        },
+        "4": {
+          "exact": 3,
+          "n": 5
+        }
+      }
+    }
+  }
+}
