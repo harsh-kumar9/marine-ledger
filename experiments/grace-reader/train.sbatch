@@ -21,7 +21,7 @@ mkdir -p "$XDG_CACHE_HOME"
 case "$stage" in
     pretrain) marker="$run_dir/pretrain-result.json" ;;
     adapt) marker="$run_dir/freeze.json" ;;
-    predict) marker="$run_dir/adapted-test.json" ;;
+    predict) marker="$run_dir/adapted-test.jsonl" ;;
     *) exit 2 ;;
 esac
 if [[ -f "$marker" ]]; then

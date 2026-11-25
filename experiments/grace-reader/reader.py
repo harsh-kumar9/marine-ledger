@@ -257,7 +257,12 @@ def run(args):
             if sha(path) != meta['checkpoint_sha256'][stage]:
                 raise ValueError('frozen checkpoint hash mismatch')
             predictions = predict(get_weights(path,device), images, device)
-            write_json(out/(stage+'-test.json'), [{'id':r['id'],'prediction':s} for r,s in zip(rows,predictions)])
+            destination = out / (stage + '-test.jsonl')
+            temp = destination.with_suffix('.tmp')
+            with temp.open('w') as handle:
+                for row, text in zip(rows, predictions):
+                    handle.write(json.dumps({'id':row['id'], 'text':text}) + '\n')
+            temp.replace(destination)
         return
     available = fonts()
     print('device', torch.cuda.get_device_name(), 'torch',torch.__version__, 'fonts',len(available), flush=True)
