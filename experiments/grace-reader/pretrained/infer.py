@@ -11,6 +11,7 @@ import torch
 import transformers
 from transformers import (
     AutoImageProcessor, AutoModelForTextRecognition, TrOCRProcessor, VisionEncoderDecoderModel,
+    XLMRobertaTokenizer,
 )
 
 from fetch import MODELS, digest
@@ -28,7 +29,12 @@ def reader(name, folder):
             inputs = processor(images=image, return_tensors="pt").to("cuda")
             return processor.post_process_text_recognition(model(**inputs))[0]["text"]
     else:
-        processor = TrOCRProcessor.from_pretrained(folder, local_files_only=True)
+        # The checkpoint names XLMRobertaTokenizer. Transformers 5.15 otherwise
+        # tries the generic fast tokenizer, which cannot read its SentencePiece file.
+        processor = TrOCRProcessor(
+            image_processor=AutoImageProcessor.from_pretrained(folder, local_files_only=True),
+            tokenizer=XLMRobertaTokenizer.from_pretrained(folder, local_files_only=True),
+        )
         model = VisionEncoderDecoderModel.from_pretrained(folder, local_files_only=True).eval().cuda()
 
         def predict(image):
