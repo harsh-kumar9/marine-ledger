@@ -1,0 +1,58 @@
+{
+  "dredginghydrogra00unit_0": {
+    "author": "U.S. Bureau of Fisheries",
+    "edition": "Dredging and hydrographic records of the U.S. fisheries steamer Albatross for 1904 and 1905 (Washington, 1906), Bureau of Fisheries Document 604",
+    "holding_institution": "The Library of Congress",
+    "rights": "U.S. federal government publication, 1906. Public domain in the United States.",
+    "metadata_url": "https://archive.org/metadata/dredginghydrogra00unit_0",
+    "download_url": "https://archive.org/download/dredginghydrogra00unit_0/dredginghydrogra00unit_0.pdf",
+    "sha256": "8b6f91e9f12773609b5d42524dafee08fb47da5f3851bcaf3f950bced9b081c6"
+  },
+  "danishingolfex3cpt8daniuoft": {
+    "author": "K. Stephensen",
+    "edition": "The Danish Ingolf-Expedition, volume III part 8, Crustacea Malacostraca V (1923). Use only the station-list leaf appended to this part.",
+    "holding_institution": "Gerstein - University of Toronto",
+    "rights": "The selected 1923 publication is public domain in the United States. The bound volume includes later works which are outside this corpus.",
+    "metadata_url": "https://archive.org/metadata/danishingolfex3cpt8daniuoft",
+    "download_url": "https://archive.org/download/danishingolfex3cpt8daniuoft/danishingolfex3cpt8daniuoft.pdf",
+    "sha256": "7ce406e318cc38a15fde9b5aa945921f3dc26f7f01615f337b443e84760b6c12"
+  },
+  "reportoncephalop00hoyl": {
+    "author": "William Evans Hoyle",
+    "edition": "Report on the Cephalopoda collected by H.M.S. Challenger during the years 1873–76 (1886).",
+    "holding_institution": "Smithsonian Libraries",
+    "rights": "The 1886 report is public domain in the United States.",
+    "metadata_url": "https://archive.org/metadata/reportoncephalop00hoyl",
+    "download_url": "https://archive.org/download/reportoncephalop00hoyl/reportoncephalop00hoyl.pdf",
+    "sha256": "c457ac64006dcf11381443ecdae6cc809224216bfeb3d37acd68ace9bbb1f725"
+  },
+  "pola": {
+    "author": "Rudolf Sturany",
+    "edition": "Mollusken I, S. M. Schiff Pola, 1890–1894 (1896), pp. 4–8",
+    "holding_institution": "Smithsonian Libraries",
+    "rights": "Public domain, as marked in the BHL METS use-and-reproduction statement.",
+    "metadata_url": "https://archive.org/download/polaexpeditionmo00wien/polaexpeditionmo00wien_bhlmets.xml",
+    "individual_scans": {
+      "16": {
+        "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0016.jp2",
+        "sha256": "a4a8f23fd69c93eeb459d7a09075d65257333b40ac838da7af760a06ff1f292a"
+      },
+      "17": {
+        "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0017.jp2",
+        "sha256": "db6f47330af053a7ce4b3fc132712febe85829bb031547fd3b06c1e215765e92"
+      },
+      "18": {
+        "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0018.jp2",
+        "sha256": "73bbed752f6f0a5bf21e233449b68b836896631e84aa970f02ce6382bf4007f7"
+      },
+      "19": {
+        "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0019.jp2",
+        "sha256": "e606d6cd91b37a83992e3d7125f1d84dc3106f840862f769baa7d3d4b9312a7d"
+      },
+      "20": {
+        "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0020.jp2",
+        "sha256": "9c844b99439f306b427a229d24ecf112b76272b51040f1c43cb386453952d401"
+      }
+    }
+  }
+}
