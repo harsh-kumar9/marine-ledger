@@ -1,0 +1,15 @@
+{
+  "title": "The Prosobranchia of the Siboga Expedition, part II: Taenioglossa and Ptenoglossa",
+  "author": "Mattheus Marinus Schepman",
+  "expedition": "Siboga (1899–1900)",
+  "publication_year": 1909,
+  "holding_institution": "MBLWHOI Library",
+  "identifier": "sibogaexpeditie43sibo",
+  "bhl_item": "https://www.biodiversitylibrary.org/item/18900",
+  "metadata_url": "https://archive.org/download/sibogaexpeditie43sibo/sibogaexpeditie43sibo_bhlmets.xml",
+  "pdf_url": "https://archive.org/download/sibogaexpeditie43sibo/sibogaexpeditie43sibo.pdf",
+  "pdf_sha256": "14e81a8d13a62be5bb5b835b147788662bcc03d74006fc5fd72ec98bfc3f2ea3",
+  "rights": "Public domain, as marked by BHL in the METS useAndReproduction field.",
+  "render_width": 1800,
+  "renderer": "pypdfium2 5.13.0, Pillow 12.3.0, grayscale"
+}
