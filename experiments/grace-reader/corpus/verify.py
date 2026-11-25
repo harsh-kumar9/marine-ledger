@@ -32,6 +32,15 @@ def verify_manifest():
             seen_ids.add(case)
     if seen_ids != set(provenance) or seen_ids != {p.stem for p in (CORPUS / "images").glob("*.png")}:
         raise ValueError("Unused or missing source fields or images")
+    released_key = CORPUS / "test-gold.jsonl"
+    if released_key.exists():
+        commitment = (CORPUS / "sealed.sha256").read_text().split()[0]
+        if sha256(released_key) != commitment:
+            raise ValueError("Released key differs from the blinded commitment")
+        public = [json.loads(line) for line in (CORPUS / "test.jsonl").read_text().splitlines()]
+        key = [json.loads(line) for line in released_key.read_text().splitlines()]
+        if [{k: v for k, v in row.items() if k != "text"} for row in key] != public:
+            raise ValueError("Released answers do not cover the committed blind inputs")
     return provenance
 
 

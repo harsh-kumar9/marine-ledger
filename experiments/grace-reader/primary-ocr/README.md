@@ -14,5 +14,6 @@ python3 baseline.py score --gold corpus/validation.jsonl --predictions /tmp/ingo
 | Albatross (train) | 62/90 | 29/452 |
 | Pola (train) | 16/25 | 17/62 |
 | Ingolf (validation) | 24/67 | 60/125 |
+| Challenger (sealed final) | 26/31 | 7/94 |
 
 Train results use real crops seen by the eventual specialist, enabling an implementation check. The unseen source for validation uses small, lightly printed numerals in a three-column station list. The cases come from one printed table and have related typography. Per-cell metrics here describe this corpus and do not estimate variability across expeditions.
