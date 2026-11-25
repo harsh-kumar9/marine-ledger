@@ -1,0 +1,15 @@
+# Printed station identifier benchmark
+
+Frozen before baseline or model scoring. Given a crop of a single **printed station identifier**, predict the complete identifier. A correct reading is needed to associate a collection claim with the right date, coordinates and gear. This benchmark supplies the field location. Full-page localization, species reading and occurrence inference require separate evaluation.
+
+| Split | Expeditions and edition IDs |
+|---|---|
+| Train | Pola, Sturany or Oberwimmer reports in Smithsonian volume `polaexpeditionmo00wien`. United States fisheries steamer Albatross, 1904–05 records, `dredginghydrogra00unit_0`. |
+| Development validation | Danish Ingolf expedition, printed station list in `danishingolfex3cpt8daniuoft`. |
+| Sealed final | HMS Challenger, W. E. Hoyle’s 1886 cephalopod report, `reportoncephalop00hoyl`. All material from this expedition is reserved for final evaluation. |
+
+Select a contiguous excerpt of the first suitable station table or numbered station inventory in each edition. Include every readable discrete station ID in those pages or contiguous rows. Repeated labels in distinct field images are permitted, repeated crops or reprints across splits are excluded. Normalize Latin letters to uppercase, remove printer's separator punctuation and spacing and preserve identifier digits and suffixes. Exclude multi-identifier ranges, ditto marks and visually unresolved glyphs, recording exclusions. If typography has a fixed series prefix that is printed with an identifier, retain it. No selection by OCR answer or confidence. Assign opaque crop IDs, record original page, crop bounds, source URL, rights, image digest and transcriber. Use an initial scan transcription and a second visual pass in randomized crop order. Disagreements return to the original page.
+
+Freeze each manifest and the sealed answer-key digest in Git before fitting real samples. Release train and validation labels to the model worker. Hold final labels, source transcripts and baseline outcomes with the evaluator until receipt of a checkpoint hash and fixed decoder settings. Train and tune exclusively on the training and validation expeditions. The public historical book is inherently accessible. The seal is procedural and auditable rather than a secrecy claim.
+
+Primary metric is exact full-identifier accuracy macro-averaged equally over expeditions for each split. Secondary metric is character error rate (Levenshtein edits divided by total reference characters within each expedition, then macro-averaged over expeditions). Report numerator and denominator plus counts by station string length. The predeclared independent baseline is Tesseract's English LSTM recognizing one word on the identical original crop, using page segmentation mode 8 with the digit and uppercase/lowercase Latin whitelist. The printed IDs comprise Arabic numerals with possible Roman-alphabet suffixes independent of the prose language. Apply identical normalization to model and baseline outputs. Print both metric values even if the trained reader loses. With one sealed expedition the test estimates performance on that edition only.
