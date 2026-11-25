@@ -1,0 +1,12 @@
+[
+  {
+    "page": "siboga-p110",
+    "reference_ids": ["siboga-p110-m01", "siboga-p110-m02", "siboga-p110-m03", "siboga-p110-m04"],
+    "field": "taxon",
+    "sealed_epithet": "pilaris",
+    "scan_epithet": "pilearis",
+    "evidence": "Luna's independent read disagreed with the sealed reference. Magnification of the printed heading shows p-i-l-e-a-r-i-s. The catalog query uses pilearis. Keep the committed reference as received; its station boxes and identifiers are unaffected.",
+    "source": "https://www.biodiversitylibrary.org/page/2205141",
+    "bbox": [295,864,874,900]
+  }
+]
