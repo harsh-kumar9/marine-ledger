@@ -1,0 +1,172 @@
+{
+  "accounts": [
+    {
+      "packet_id": "pilearis",
+      "what_scan_supports": "p.110: Aquillus (Lampsusia) pilearis Linné.; numbered records Stat. 4, 47, 53, 172 (respectively 1, 2, 1, 1 Spec.). Later discussion is taxonomic interpretation, not another collection record.",
+      "catalog_evidence": "WoRMS AphiaID 476533 Monoplex pilearis. Frozen GBIF all-years/global expedition and OBIS global expedition queries each returned 0; regional OBIS returned 66 but has no explicit Siboga text records. No catalog record verifies these page lots.",
+      "disposition": "Retain source account and its four numbered stations; catalog occurrence evidence is not lot-level corroboration. Historical concept remains qualified by page discussion.",
+      "decisive_next_evidence": "A voucher/catalog record linked to an explicit station or a taxonomic reassessment of the page's stated species concept."
+    },
+    {
+      "packet_id": "aquatilis",
+      "what_scan_supports": "p.110: Aquillus (Lampsusia) aquatilis Reeve.; Stat. 225, South-Lucipara-island, reef, 1 Spec.",
+      "catalog_evidence": "WoRMS AphiaID 476516 Monoplex aquatilis. Frozen GBIF global/all-years and OBIS global expedition queries returned 0; regional OBIS returned 20, no explicit Siboga text record.",
+      "disposition": "Retain Stat. 225; no catalog lot-level corroboration in the frozen packet.",
+      "decisive_next_evidence": "A voucher linked to station 225."
+    },
+    {
+      "packet_id": "rubecula",
+      "what_scan_supports": "p.111: Aquillus (Lampsusia) rubecula Linné.; Stat. 315, East of Sailus Besar, Paternoster-islands, up to 36 M, coral and Lithothamnion, 1 Spec. The text calls the specimen very young.",
+      "catalog_evidence": "WoRMS AphiaID 476590 Septa rubecula. Frozen GBIF global expedition returned 1 record and GBIF Siboga all-years 0; the global record has fieldNumber/locality filled but no explicit-station overlap in its packet. OBIS regional returned 28, with no explicit Siboga text record.",
+      "disposition": "Retain printed identification with the young-specimen caveat; do not treat general GBIF match as station-level confirmation.",
+      "decisive_next_evidence": "Inspect the one frozen GBIF global raw result for a source/catalog link; a verified station 315 voucher would decide lot corroboration."
+    },
+    {
+      "packet_id": "gemmatus",
+      "what_scan_supports": "p.111: Aquillus (Lampsusia) gemmatus Reeve.; Stat. 47, 240, 304, one specimen each. Following prose separately describes the Banda specimen (Stat. 240). That is a later mention of the same lot, not a fourth record.",
+      "catalog_evidence": "WoRMS AphiaID 476521 Monoplex gemmatus. Frozen GBIF expedition/all-years and OBIS global expedition returned 0; regional OBIS returned 16, no explicit Siboga text record.",
+      "disposition": "Retain three numbered records; avoid double-counting the later Banda mention.",
+      "decisive_next_evidence": "Voucher record linked to one of the three stations."
+    },
+    {
+      "packet_id": "orientalis",
+      "what_scan_supports": "p.111: Aquillus (Turritriton) labiosus Wood, var. orientalis Nevill.; Stat. 40, 47, 60, 240, 285, one specimen each. The account says some are too young to assign to the variety with certainty.",
+      "catalog_evidence": "WoRMS AphiaID 476594 Turritriton labiosus. GBIF global expedition returned 1; its candidate packet has fieldNumber/locality present but no explicit station overlap. GBIF all-years 0; regional OBIS 21 with no explicit Siboga text record.",
+      "disposition": "Retain printed variety and uncertainty; accepted taxon is a broader/name-level placement, not evidence that each specimen belongs to that variety.",
+      "decisive_next_evidence": "Review the sole frozen GBIF global raw result for voucher identity; inspect historical variety concept or source vouchers."
+    },
+    {
+      "packet_id": "vespaceus",
+      "what_scan_supports": "p.111: Aquillus (Turritriton) vespaceus Lamarck?; Stat. 37, Sailus-Ketjil, Paternoster-islands, up to 27 M, coral and coralsand, 1 Spec. The question mark is printed; p.112 calls the identification rather uncertain and compares it with A. vespaceus.",
+      "catalog_evidence": "WoRMS AphiaID 476538 Monoplex vespaceus. GBIF global/all-years and OBIS global expedition returned 0; regional OBIS returned 9 and has no explicit Siboga text record. Register p.4 confirms Stat. 37 locality and depth (27 metres and less), but has blank coordinates.",
+      "disposition": "Retain station 37 with the printed question mark and uncertainty; the register corroborates station metadata, not identification.",
+      "decisive_next_evidence": "Species-level examination of the original specimen; register coordinates cannot supply a coordinate for station 37."
+    },
+    {
+      "packet_id": "elongatus",
+      "what_scan_supports": "p.112: heading reads Aquillus (Turritriton) elongatus Reeve, var. (no variety epithet visible); records Stat. 37 (1 Spec.), 43 (1 Spec.), and 193 (1 Spec.). Prose says the identification is somewhat doubtful and a slight variation. Stat. 37 is a distinct account/lot from p.111 vespaceus at the same operation.",
+      "catalog_evidence": "Packet maps to WoRMS AphiaID 476538 Monoplex vespaceus (same accepted name as the separate vespaceus account), while its historical matching name is Triton elongatus (Reeve). Frozen GBIF global/all-years and OBIS global expedition returned 0; regional OBIS 9, no explicit Siboga record. Register p.4 independently confirms Stat. 43 at Pulu Sarassa, up to 36 m; Stat. 37 is separately listed Sailus ketjil.",
+      "disposition": "Keep as a distinct, uncertain printed account; do not merge with vespaceus merely because accepted WoRMS usage is shared. Retain incomplete 'var.' literally and source uncertainty.",
+      "decisive_next_evidence": "Historical taxonomic review of Reeve's elongatus and the author's intended variety; specimen review. Register confirms station context only."
+    },
+    {
+      "packet_id": "gracilis",
+      "what_scan_supports": "p.112: Aquillus (Turritriton) gracilis Reeve.; Stat. 164 (4 Spec.) and 273 (2 Spec.). These are separate entries in this account, despite sharing Stat. 164 with the distinct pfeifferianus account.",
+      "catalog_evidence": "Packet maps to WoRMS AphiaID 476566 Reticutriton pfeifferianus; original queried combination Triton gracilis is unaccepted. GBIF global/all-years and OBIS global expedition returned 0; regional OBIS 54, no explicit Siboga record. Same AphiaID is also assigned to pfeifferianus; this does not make their two page accounts identical. Direct Naturalis API record RMNH.MOL.193497 is one shell from Halmahera Sea; structured gatheringEvent omits station number. Its attached physical label image explicitly reads Halmahera Zee, St. 164, and another old label identifies Aquillus (Cym.) (Turritriton) gracilis Rve; the large label reads Cymatium (Gutturnium) vespaceum var. gracilis. Current preferred API identification is Monoplex vespaceus. Thus a single museum shell plausibly links to page station 164/gracilis, but its taxonomic identity is contested and count does not explain all four specimens printed for that station.",
+      "disposition": "Retain the page entry as gracilis at Stat. 164 (4 Spec.) and keep it distinct from pfeifferianus at Stat. 164 (1 Spec.). Museum evidence supports at least one station-164 shell with historical gracilis labels, while current preferred identification is Monoplex vespaceus; do not use that one shell as proof of all four specimens or collapse the page accounts.",
+      "decisive_next_evidence": "Review all four page-lot specimens and Naturalis historical identification sequence; RMNH.MOL.193497 label supports station 164, but current ID and partial lot count leave the species concept open."
+    },
+    {
+      "packet_id": "pfeifferianus",
+      "what_scan_supports": "p.112: Aquillus (Turritriton) Pfeifferianus Reeve.; records Stat. 33, 47, a printed Stat. 49 followed by an indistinct superscript/glyph, 71, 77, and 164. The 47 line says 13—54 M; 49 line Sapeh-strait, 69 M; 77 line 3 Spec.; 164 line 1 Spec. The 49 suffix is not fully legible in the page scan alone. Most specimens are very young.",
+      "catalog_evidence": "WoRMS AphiaID 476566 Reticutriton pfeifferianus. GBIF global/all-years and OBIS global expedition returned 0; regional OBIS 54, no explicit Siboga record. Frozen register p.4 has separate 49 (369 m; 8°20.5′ S, 119°04.5′ E) and 49A (69 m; Sapeh Strait; 8°23.5′ S, 119°04.6′ E). The printed 69 m and Sapeh locality identify the page's indistinct suffix as 49A, not unsuffixed 49.",
+      "disposition": "Use station 49A as a catalog-resolved reading, preserving the page's ambiguous glyph in transcription/audit. Preserve records at 33, 47, 71, 77, 164 and young-specimen caveat.",
+      "decisive_next_evidence": "Station register row 49A is decisive for joining this 69 m Sapeh lot; original account scan remains ambiguous at suffix."
+    },
+    {
+      "packet_id": "aquillus-sp",
+      "what_scan_supports": "p.112 heading Aquillus sp.; prose only, no numbered station collection lines. It says several young unidentifiable specimens from Stat. 37, 240, 315 seem to belong to one or nearly allied species, and another from Stat. 225 is certainly different. These are narrative station mentions, not enumerated records.",
+      "catalog_evidence": "No author-verified species match or AphiaID; frozen packet has no species-level query. The station references coincide with other numbered page accounts, but that does not identify the lots or establish they are those same specimens.",
+      "disposition": "Keep genus-only and unidentified; retain prose mentions separately from structured numbered occurrence records. Do not assign a species via neighboring headings.",
+      "decisive_next_evidence": "Original specimens or an independent catalog explicitly linking these juvenile lots to species."
+    },
+    {
+      "packet_id": "grandimaculatus",
+      "what_scan_supports": "p.113: Aquillus (Gutturinium) grandimaculatus Reeve.; Stat. 99, North-Ubian, Sulu-archipelago, 16—23 M, Lithothamnion-bottom, 1 Spec. Text says the single specimen is young.",
+      "catalog_evidence": "WoRMS AphiaID 476510 Lotoria grandimaculata. Frozen GBIF expedition/all-years and OBIS global expedition returned 0; regional OBIS returned 1, no explicit Siboga text record.",
+      "disposition": "Retain one young specimen at Stat. 99; no frozen catalog lot-level corroboration.",
+      "decisive_next_evidence": "Voucher/collection record linked to station 99 and review of historical species concept."
+    },
+    {
+      "packet_id": "tuberosus",
+      "what_scan_supports": "p.113: Aquillus (Gutturinium) tuberosus Lamarck.; record is '*Island Enkhuizen near Batavia. 1 Spec.' It is an unnumbered locality and has an asterisk, not a numbered Stat. record.",
+      "catalog_evidence": "WoRMS AphiaID 220950 Gutturnium muricinum. GBIF global expedition returned 1; packet reports its fieldNumber/locality filled, but no explicit Siboga station linkage. GBIF all-years 0; regional OBIS 62 with no explicit Siboga text record.",
+      "disposition": "Preserve as an unnumbered locality-only lot; do not invent a station number or treat name-matched catalog results as its voucher.",
+      "decisive_next_evidence": "Trace the asterisk/Island Enkhuizen locality to an original collection label or catalog voucher."
+    },
+    {
+      "packet_id": "anus",
+      "what_scan_supports": "p.113: Distortrix anus Linné.; Stat. 234 and 240, one specimen each.",
+      "catalog_evidence": "WoRMS AphiaID 217011 Distorsio anus. Frozen GBIF expedition/all-years and OBIS global expedition returned 0; regional OBIS 57, no explicit Siboga record. Direct Naturalis API record ZMA.MOLL.31875 confirms Siboga Expedition st.234, Nalahia Bay, 46 m, stones/reef exploration, preferred Distorsio anus (Linnaeus, 1758); its structured numberOfSpecimen is 2, while the printed page says 1 Spec. This is a specimen-level station/taxon link with a count discrepancy.",
+      "disposition": "Retain printed one-specimen page record and flag count discrepancy: Naturalis lot ZMA.MOLL.31875 records two specimens at station 234. The museum identity corroborates the taxon and station for that lot; no direct museum voucher was checked for station 240.",
+      "decisive_next_evidence": "Review ZMA.MOLL.31875 lot contents/count history to reconcile 2 museum specimens versus 1 in the page; obtain voucher for station 240."
+    },
+    {
+      "packet_id": "cancellinus",
+      "what_scan_supports": "p.113: Distortrix cancellinus Roissy. (author as printed); records Stat. 1, 2, 47, each 1 Spec. The Stat. 1 line says 1400 M distant from reef 'Zwaantjes-droogte', Madura-strait, 37 M, grey mud with small broken shells; station 2 is 56 M. The scan's first record wraps across two lines.",
+      "catalog_evidence": "The frozen taxon query for exact Distortrix cancellinus returns an Aphia synonym/name hit 217012 authored (Lamarck, 1803), accepted as Distorsio reticularis AphiaID 476487; this conflicts with the scan's printed Roissy. Frozen GBIF global expedition has 1 result but packet identifies blank coordinates and no Siboga text record; regional OBIS has 100 returned of 102 (truncated), no explicit Siboga text records. These are not author-matched occurrence proof. Direct Naturalis API records ZMA.MOLL.31943 and ZMA.MOLL.31942 identify stations 1 and 2 respectively, Madura Strait, 37 m / 56 m, matching the printed localities/depths. Preferred database determinations are Distorsio reticularis; historical tickets in the attached museum photos carry Distortrix cancellinus at station 2 and cancellinus/Roissy at station 1. This is specimen-level linkage to the lots/page stations, but does not prove author equivalence or resolve whether the printed Roissy concept is synonymous with modern reticularis.",
+      "disposition": "Retain printed Roissy and three records. Museum lots independently corroborate the station 1 and 2 collection context and document historical cancellinus identification; accepted Distorsio reticularis remains a competing modern determination, not author-level resolution. No voucher for station 47 was checked.",
+      "decisive_next_evidence": "Taxonomic/bibliographic verification of the Roissy name and examination/reidentification of lots ZMA.MOLL.31943/.31942; find a station 47 voucher if lot-level evidence is needed."
+    }
+  ],
+  "station89_control": {
+    "scan_evidence": "The allowed gastropod scans pp.110–113 contain no station 89 record. Frozen Tydeman register p.6 lists station 88 on June 20 at 0°34.6′ N, 119°08.5′ E, 1301 m and station 89 on June 21, 11 m, Pulu Kaniungan ketjil, with blank position fields.",
+    "catalog_evidence": "Control packet's NIWA/GBIF/OBIS voucher explicitly names Siboga Stn. 89 Cephalodiscus gracilis and carries coordinates −0.5767, 119.1417, event date 1899-06-21, eventID 913. Register station 89 corroborates number/date but supplies no coordinates; its station 88 row is a day earlier, north hemisphere, and deep-water. The coordinates must not be transferred from row 88 to row 89.",
+    "disposition": "Station-number/date linkage is supported; register cannot verify control coordinates. Modern published coordinates disagree with the closest printed coordinates in hemisphere and belong to distinct station 88; flag coordinate provenance unresolved.",
+    "bounded_absence": "No station 89 entry was observed in the four supplied gastropod page images; this says nothing about other pages or the expedition corpus. The register p.6 specifically has blank coordinates on row 89."
+  },
+  "main_disagreement": "The scan's p.112 pfeifferianus station glyph after 49 is indistinct. My image-only first-pass JSON transcribed it as '49°' and rendered the heading labrosus/variety item incorrectly as a separate entry; reinspection of the page confirms p.111 heading 6 is Aquillus (Turritriton) vespaceus Lamarck? at Stat. 37, while p.112 station 49's Sapeh Strait and 69 m match register 49A. Thus the catalog-resolved station is 49A, but the scan's suffix alone is not certain. Also p.112's elongatus heading visibly ends 'Reeve, var.' without an epithet, and its station 37 is a separate account/lot from vespaceus at station 37. Catalog accepted-name collapsing would merge distinct printed concepts at stations 37 and 164; preserve account identity and station context. New primary voucher checks: ZMA.MOLL.31875 links station 234 to Distorsio anus but catalogs two specimens against the page’s 1 Spec. ZMA.MOLL.31943/.31942 link stations 1/2 to the cancellinus page lots and carry historical cancellinus tickets, while their preferred modern identification is Distorsio reticularis; specimen linkage does not resolve the printed-author conflict. RMNH.MOL.193497’s structured metadata lacks a station number, but the photographed historic label reads Halmahera Sea St.164 and includes gracilis/vespaceum var. gracilis determinations; current preferred Monoplex vespaceus differs. One museum shell is not the four specimens listed at station 164.",
+  "coverage": "Reviewed all 14 packet IDs and compared with all four supplied scans, frozen packet/candidate data, register/control JSON, and register images p.4 and p.6. No broken links encountered. Occurrence statements above are bounded to the returned counts and explicit Siboga overlaps recorded in frozen packets; regional totals may include unrelated occurrences and the cancellinus regional query is truncated. Also checked live public Naturalis specimen API records for ZMA.MOLL.31875, ZMA.MOLL.31943, ZMA.MOLL.31942, RMNH.MOL.193497, and RMNH.MOL.193059, and inspected photos for .31943, .31942, and the supplied .193497/.193059 label montage. Zero cached GBIF/OBIS counts can coexist with these separate Naturalis CRS specimen records because the frozen GBIF/OBIS query packets return only their own indexed results and contain no explicit Siboga record for these voucher IDs; they are not an exhaustive query of the Naturalis API. The Naturalis records/photos were reviewed directly, not inferred from the zero counts.",
+  "museum_provider_id_audit": {
+    "source": "Frozen `catalog/museum.json`; no new network calls.",
+    "result": "All five Naturalis unit IDs have one exact GBIF provider-ID lookup record. These specimens were already represented in GBIF; the earlier frozen species/expedition-keyword query packets lacked explicit Siboga text matches. Direct ID resolution reveals occurrence records that those search strategies did not surface. This is a discovery/query-path difference, not newly created GBIF records.",
+    "records": [
+      {
+        "unit": "RMNH.MOL.193059",
+        "gbif_key": 2444503155,
+        "scientificName": "Turritriton labiosus (W.Wood, 1828)",
+        "eventDate": null,
+        "eventID": null,
+        "fieldNumber": null,
+        "locality": null,
+        "verbatimEventDate": null,
+        "link": "Station 60 label-supported in Naturalis; GBIF occurrence omits station/event metadata."
+      },
+      {
+        "unit": "RMNH.MOL.193497",
+        "gbif_key": 2444503569,
+        "scientificName": "Monoplex vespaceus (Lamarck, 1822)",
+        "eventDate": null,
+        "eventID": null,
+        "fieldNumber": null,
+        "locality": null,
+        "verbatimEventDate": null,
+        "link": "Museum label says station 164 and old gracilis determinations; GBIF occurrence reports current preferred vespaceus and lacks station/event metadata."
+      },
+      {
+        "unit": "ZMA.MOLL.31875",
+        "gbif_key": 2444683040,
+        "scientificName": "Distorsio anus (Linnaeus, 1758)",
+        "eventDate": null,
+        "eventID": null,
+        "fieldNumber": null,
+        "locality": "Nalahia Bay, 46m, stones, reef expl.19/20 XI 1899",
+        "verbatimEventDate": "--",
+        "link": "Naturalis event explicitly Siboga st.234; GBIF retains locality but no event date/ID/field number."
+      },
+      {
+        "unit": "ZMA.MOLL.31942",
+        "gbif_key": 2444667268,
+        "scientificName": "Distorsio reticularis (Linnaeus, 1758)",
+        "eventDate": null,
+        "eventID": null,
+        "fieldNumber": null,
+        "locality": "7°25' S - 113°16' E, trawl, 56m. 8 III 1899 trawl",
+        "verbatimEventDate": "--",
+        "link": "Naturalis event explicitly Siboga st.2; physical ticket records Distortrix cancellinus Roissy."
+      },
+      {
+        "unit": "ZMA.MOLL.31943",
+        "gbif_key": 2444683047,
+        "scientificName": "Distorsio reticularis (Linnaeus, 1758)",
+        "eventDate": null,
+        "eventID": null,
+        "fieldNumber": null,
+        "locality": "7°27'.5 S -113°8'.5 E,trawl, 37m, muddy bottom 7 III 1899 trawl",
+        "verbatimEventDate": "--",
+        "link": "Naturalis event explicitly Siboga st.1; physical ticket records Distortrix cancellinus Roissy."
+      }
+    ],
+    "interpretation": "Direct provider-ID lookup is more specific than broad name/year or expedition keyword searches. GBIF occurrences for the five records omit core fields such as eventDate, eventID, fieldNumber (and most locality fields), so an expedition-keyword query can miss or fail to match records that are nevertheless present in GBIF. For .193059 and .193497 even GBIF locality is blank; museum annotations/labels carry station context. Taxon display in GBIF may be current/preferred and does not erase historical ticket identifications or resolve historical concept/authorship."
+  }
+}
