@@ -1,0 +1,14 @@
+{
+  "paddle": {
+    "repo": "PaddlePaddle/en_PP-OCRv5_mobile_rec_safetensors",
+    "revision": "e4abce2bbd335f6c3eda0507b7f8e8abd5af3419",
+    "weights_sha256": "9dab63fb9b819082f3f06e889a3af56dc2c27155d46d8409659c869a2aece2bc",
+    "files": ["config.json", "preprocessor_config.json", "model.safetensors"]
+  },
+  "trocr": {
+    "repo": "microsoft/trocr-small-printed",
+    "revision": "04e994ab854b0089d4929f48c2b4dbe2ce78a340",
+    "weights_sha256": "49350a39968df83e5a1adc90fc0ede02ff247671aed70b842af350fd4a7103f3",
+    "files": ["config.json", "generation_config.json", "preprocessor_config.json", "tokenizer_config.json", "sentencepiece.bpe.model", "special_tokens_map.json", "model.safetensors"]
+  }
+}
