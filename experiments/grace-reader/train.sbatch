@@ -31,4 +31,4 @@ fi
 hostname
 date -u
 nvidia-smi --query-gpu=name,driver_version --format=csv,noheader
-exec "${READER_PYTHON:-/ada1/u/harsh/miniconda3/envs/sote/bin/python}" -u reader.py "$stage" --out "$run_dir"
+exec "${READER_PYTHON:-python3}" -u reader.py "$stage" --out "$run_dir"
