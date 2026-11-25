@@ -1,0 +1,46 @@
+{
+  "macro_exact_accuracy": 0.6644444444444444,
+  "macro_cer": 0.16917642021124749,
+  "expeditions": {
+    "albatross": {
+      "exact": 62,
+      "n": 90,
+      "exact_accuracy": 0.6888888888888889,
+      "edits": 29,
+      "characters": 452,
+      "cer": 0.06415929203539823,
+      "by_target_length": {
+        "5": {
+          "exact": 61,
+          "n": 88
+        },
+        "6": {
+          "exact": 1,
+          "n": 2
+        }
+      }
+    },
+    "pola": {
+      "exact": 16,
+      "n": 25,
+      "exact_accuracy": 0.64,
+      "edits": 17,
+      "characters": 62,
+      "cer": 0.27419354838709675,
+      "by_target_length": {
+        "1": {
+          "exact": 0,
+          "n": 2
+        },
+        "2": {
+          "exact": 4,
+          "n": 9
+        },
+        "3": {
+          "exact": 12,
+          "n": 14
+        }
+      }
+    }
+  }
+}

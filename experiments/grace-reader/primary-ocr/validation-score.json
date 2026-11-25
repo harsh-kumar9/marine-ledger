@@ -1,0 +1,24 @@
+{
+  "macro_exact_accuracy": 0.3582089552238806,
+  "macro_cer": 0.48,
+  "expeditions": {
+    "ingolf": {
+      "exact": 24,
+      "n": 67,
+      "exact_accuracy": 0.3582089552238806,
+      "edits": 60,
+      "characters": 125,
+      "cer": 0.48,
+      "by_target_length": {
+        "1": {
+          "exact": 5,
+          "n": 9
+        },
+        "2": {
+          "exact": 19,
+          "n": 58
+        }
+      }
+    }
+  }
+}
