@@ -110,10 +110,11 @@ def paired(args):
         raise ValueError("unlabeled manifest and key cover different cells")
     systems = {"tuned": args.tuned, "ocr_primary": args.baseline, "ocr_selected": args.challenger,
                "before_adaptation": args.untuned}
-    scores, exact = {}, {}
+    scores, exact, texts = {}, {}, {}
     for name, path in systems.items():
         rows = read_rows(path)
         scores[name] = metrics(refs, rows)
+        texts[name] = {r["id"]: normalize(r["text"]) for r in rows}
         exact[name] = {r["id"] for r in rows if normalize(r["text"]) == refs[r["id"]]}
         scores[name]["correct_by_reference_length"] = dict(sorted(
             Counter(len(refs[i]) for i in exact[name]).items()
@@ -123,9 +124,13 @@ def paired(args):
         a, b = exact["tuned"], exact[name]
         comparisons[name] = {"both_correct": len(a & b), "tuned_only": len(a - b),
                              "comparator_only": len(b - a), "both_wrong": len(refs) - len(a | b)}
+    agree = {i for i in refs if texts["tuned"][i] == texts["ocr_selected"][i]}
     save(args.out, {"distinct_station_ids": len(set(refs.values())),
                     "reference_length_counts": dict(sorted(Counter(map(len, refs.values())).items())),
-                    "scores": scores, "paired_against_tuned": comparisons})
+                    "scores": scores, "paired_against_tuned": comparisons,
+                    "exploratory_agreement": {"matching_outputs": len(agree),
+                                              "correct_among_matching": len(agree & exact["tuned"]),
+                                              "requires_review": len(refs) - len(agree)}})
 
 
 def main():

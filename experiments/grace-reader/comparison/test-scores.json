@@ -1,0 +1,87 @@
+{
+  "distinct_station_ids": 31,
+  "reference_length_counts": {
+    "1": 1,
+    "2": 2,
+    "3": 23,
+    "4": 5
+  },
+  "scores": {
+    "tuned": {
+      "correct": 25,
+      "cells": 31,
+      "edits": 6,
+      "reference_characters": 94,
+      "cer": 0.06382978723404255,
+      "correct_by_reference_length": {
+        "1": 1,
+        "2": 2,
+        "3": 21,
+        "4": 1
+      }
+    },
+    "ocr_primary": {
+      "correct": 26,
+      "cells": 31,
+      "edits": 7,
+      "reference_characters": 94,
+      "cer": 0.07446808510638298,
+      "correct_by_reference_length": {
+        "1": 1,
+        "2": 1,
+        "3": 21,
+        "4": 3
+      }
+    },
+    "ocr_selected": {
+      "correct": 27,
+      "cells": 31,
+      "edits": 5,
+      "reference_characters": 94,
+      "cer": 0.05319148936170213,
+      "correct_by_reference_length": {
+        "2": 2,
+        "3": 23,
+        "4": 2
+      }
+    },
+    "before_adaptation": {
+      "correct": 27,
+      "cells": 31,
+      "edits": 4,
+      "reference_characters": 94,
+      "cer": 0.0425531914893617,
+      "correct_by_reference_length": {
+        "1": 1,
+        "2": 2,
+        "3": 21,
+        "4": 3
+      }
+    }
+  },
+  "paired_against_tuned": {
+    "before_adaptation": {
+      "both_correct": 25,
+      "tuned_only": 0,
+      "comparator_only": 2,
+      "both_wrong": 4
+    },
+    "ocr_primary": {
+      "both_correct": 22,
+      "tuned_only": 3,
+      "comparator_only": 4,
+      "both_wrong": 2
+    },
+    "ocr_selected": {
+      "both_correct": 23,
+      "tuned_only": 2,
+      "comparator_only": 4,
+      "both_wrong": 2
+    }
+  },
+  "exploratory_agreement": {
+    "matching_outputs": 23,
+    "correct_among_matching": 23,
+    "requires_review": 8
+  }
+}
