@@ -1,0 +1,185 @@
+{
+  "selected_on_ingolf": "trocr",
+  "ingolf": {
+    "paddle": {
+      "correct": 49,
+      "cells": 67,
+      "edits": 24,
+      "reference_characters": 125,
+      "cer": 0.192
+    },
+    "trocr": {
+      "correct": 60,
+      "cells": 67,
+      "edits": 9,
+      "reference_characters": 125,
+      "cer": 0.072
+    },
+    "luna_a": {
+      "correct": 61,
+      "cells": 67,
+      "edits": 7,
+      "reference_characters": 125,
+      "cer": 0.056
+    },
+    "luna_b": {
+      "correct": 61,
+      "cells": 67,
+      "edits": 7,
+      "reference_characters": 125,
+      "cer": 0.056
+    },
+    "tesseract_single_line": {
+      "correct": 47,
+      "cells": 67,
+      "edits": 28,
+      "reference_characters": 125,
+      "cer": 0.224
+    }
+  },
+  "challenger": {
+    "paddle": {
+      "correct": 31,
+      "cells": 31,
+      "edits": 0,
+      "reference_characters": 94,
+      "cer": 0.0
+    },
+    "trocr": {
+      "correct": 31,
+      "cells": 31,
+      "edits": 0,
+      "reference_characters": 94,
+      "cer": 0.0
+    },
+    "luna_a": {
+      "correct": 31,
+      "cells": 31,
+      "edits": 0,
+      "reference_characters": 94,
+      "cer": 0.0
+    },
+    "luna_b": {
+      "correct": 31,
+      "cells": 31,
+      "edits": 0,
+      "reference_characters": 94,
+      "cer": 0.0
+    },
+    "tesseract_single_line": {
+      "correct": 27,
+      "cells": 31,
+      "edits": 5,
+      "reference_characters": 94,
+      "cer": 0.05319148936170213
+    }
+  },
+  "paired_challenger_vs_single_line_tesseract": {
+    "paddle": {
+      "both_correct": 27,
+      "reader_only": 4,
+      "tesseract_only": 0,
+      "both_wrong": 0
+    },
+    "trocr": {
+      "both_correct": 27,
+      "reader_only": 4,
+      "tesseract_only": 0,
+      "both_wrong": 0
+    },
+    "luna_a": {
+      "both_correct": 27,
+      "reader_only": 4,
+      "tesseract_only": 0,
+      "both_wrong": 0
+    },
+    "luna_b": {
+      "both_correct": 27,
+      "reader_only": 4,
+      "tesseract_only": 0,
+      "both_wrong": 0
+    }
+  },
+  "challenger_errors": [
+    {
+      "id": "g6e7ac286215a1c",
+      "reference": "122B",
+      "paddle": "122B",
+      "trocr": "122B",
+      "luna_a": "122B",
+      "luna_b": "122B",
+      "tesseract_single_line": "122P"
+    },
+    {
+      "id": "g80a196bb9064e0",
+      "reference": "163A",
+      "paddle": "163A",
+      "trocr": "163A",
+      "luna_a": "163A",
+      "luna_b": "163A",
+      "tesseract_single_line": "L63A"
+    },
+    {
+      "id": "g854bbc378b4bf4",
+      "reference": "216A",
+      "paddle": "216A",
+      "trocr": "216A",
+      "luna_a": "216A",
+      "luna_b": "216A",
+      "tesseract_single_line": "QI6A"
+    },
+    {
+      "id": "ge66fc60f297257",
+      "reference": "2",
+      "paddle": "2",
+      "trocr": "2",
+      "luna_a": "2",
+      "luna_b": "2",
+      "tesseract_single_line": ""
+    }
+  ],
+  "shared_luna_errors": [
+    {
+      "expedition": "ingolf",
+      "id": "g294899ff503147",
+      "reference": "65",
+      "both_luna_readers": "05",
+      "trocr": "65"
+    },
+    {
+      "expedition": "ingolf",
+      "id": "g51a92a0af923f0",
+      "reference": "67",
+      "both_luna_readers": "07",
+      "trocr": "677"
+    },
+    {
+      "expedition": "ingolf",
+      "id": "g6474cd7d8f5931",
+      "reference": "66",
+      "both_luna_readers": "00",
+      "trocr": "00"
+    },
+    {
+      "expedition": "ingolf",
+      "id": "g9b58b4b2a955c5",
+      "reference": "64",
+      "both_luna_readers": "04",
+      "trocr": "04"
+    },
+    {
+      "expedition": "ingolf",
+      "id": "gd1ef79698a8685",
+      "reference": "62",
+      "both_luna_readers": "02",
+      "trocr": "62"
+    },
+    {
+      "expedition": "ingolf",
+      "id": "ge70649efb89405",
+      "reference": "63",
+      "both_luna_readers": "03",
+      "trocr": "03"
+    }
+  ]
+}

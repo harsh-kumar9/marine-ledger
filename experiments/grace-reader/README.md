@@ -9,6 +9,8 @@
 | Neural reader trained on synthetic text | 27 / 31 (87.1%) | 4 |
 | Same reader after adaptation to real expedition crops on Grace | 25 / 31 (80.6%) | 6 |
 
+A follow-up ran two published Hugging Face checkpoints on Grace and two independent Luna subagents on the same fields. All four recovered the 31 Challenger identifiers. The labels were already public for that follow-up. [Pretrained readers, Luna and the shared Ingolf errors](pretrained/README.md)
+
 ## What transferred
 
 Training used 115 real crops from Pola and Albatross. Ingolf supplied 67 validation identifiers for checkpoint and OCR configuration selection. During development, adaptation improved the neural reader from 21 to 30 exact on Ingolf. The stronger Tesseract setting read 47 of the same 67 exactly. A separate evaluator kept the answer key for Hoyle's 1886 Challenger report sealed until all model and OCR outputs were frozen. A second visual reading of the 31 shuffled test crops agreed with all 31 labels. [Edition selection and source scans](corpus/README.md) · [Model and decoder](MODEL.md) · [Blind second reading](comparison/second-read.jsonl)

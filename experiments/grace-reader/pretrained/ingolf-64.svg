@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="353" viewBox="0 0 720 353" role="img" aria-labelledby="title desc">
+<title id="title">Two readers agreed on the wrong station</title>
+<desc id="desc">Both Luna runs and TrOCR read the same faint printed station identifier as 04. The expedition's station list identifies it as 64. The original crop is shown enlarged.</desc>
+<rect width="720" height="353" rx="12" fill="#f8f6ee"/>
+<g fill="#103f47" font-family="Arial, Helvetica, sans-serif">
+<text x="30" y="38" font-size="17" letter-spacing="1.2" font-weight="700">THE DANISH INGOLF EXPEDITION  /  PRINTED STATION LIST</text>
+<text x="28" y="91" font-family="Georgia, serif" font-size="40">When the readers agree and miss</text>
+<rect x="30" y="121" width="204" height="151" rx="5" fill="white" stroke="#b8c8c0"/>
+<image x="42" y="133" width="180" height="126" style="image-rendering:pixelated" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAkCAAAAADjxUasAAABFUlEQVR4nNWUwUrDQBCGZ9K01EOwojQtwYPngoe+/xN4URBKEFJNYwkUlEaNSQ3siJttwGTiJhKFzmWWP/vtPztJBnewD4SmYTTe2SFE9F9OBwCtH1tDRPfU3snLGSEKRbiZBkoikFS4fFZKtghuNNDT+/BElhl4SklD7pV/L48G1leyR69+LtyRFiKV+4ZQN5lZXGdKTlTCh1Otk3O8x6yL4hgdZNjpi1yMnR5TVU15k91WHj09B4BVTBD7nFfpM5pHi2KN7gO4Cb5dxWUIU344YJ4+bjeXjqa8SgxO4QxYiJgOFRJe81Dr0EH93lFVNGu3k+yGI6p9kN2DuumKvymPav7jv2gEUWdO5s+PkVUPayw3i08cZ19GRfTkJAAAAABJRU5ErkJggg=="/>
+<text x="31" y="302" font-size="18">Original crop, enlarged</text>
+<text x="267" y="153" font-size="21">Luna A · Luna B · TrOCR</text>
+<text x="267" y="207" font-size="48" font-weight="700" fill="#974f35">04</text>
+<path d="M267 227h415" stroke="#becbc4"/>
+<text x="267" y="263" font-size="21">Identifier from the expedition page</text>
+<text x="267" y="319" font-size="48" font-weight="700" fill="#176872">64</text>
+</g></svg>
