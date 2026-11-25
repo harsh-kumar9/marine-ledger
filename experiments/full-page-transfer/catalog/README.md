@@ -16,6 +16,8 @@ The inputs were the four public 1909 pages, Tesseract's blind layout and the ori
 
 The species accounts for *vespaceus* and *elongatus* at 37 both express doubt. Their independent name bridges converge on *Monoplex vespaceus*. Nine OBIS records use that accepted taxon in the regional rectangle. Three lack a date, and all nine lack both a field number and event ID. The station register gives Sailus ketjil and March 30–31, 1899 with blank coordinate fields. The voucher linked to *Monoplex vespaceus* at 164 bears a different historical determination. Hold both station 37 assertions as historical reports; their specimen identities and current determinations require traceable lots. [Report p111](https://www.biodiversitylibrary.org/page/2205140) · [p112](https://www.biodiversitylibrary.org/page/2205139) · [Register p4](https://archimer.ifremer.fr/doc/00000/4745/4237.pdf#page=164) · [WoRMS](https://www.marinespecies.org/aphia.php?p=taxdetails&id=476538)
 
+A subsequent cross-check recovered a depth discrepancy at station 60. The museum ticket gives 36 m, the commander’s station register gives 23 m, and the printed species entry gives habitat alone. Preserve the two depth observations separately. [Register checks for the five lots](voucher-stations.md)
+
 ## Geographic controls
 
 On April 14, 1899 the vessel worked both 49 and 49a. The register gives 369 m for 49 and 69 m for 49a. Only 49a names Sapeh Strait. The 1909 account gives Sapeh Strait and 69 m next to a damaged superscript. On the same page of the register, 43 names Pulu Sarassa and up to 36 m, resolving a second OCR station ambiguity. [Register p4](https://archimer.ifremer.fr/doc/00000/4745/4237.pdf#page=164) · [Transcribed entries](register.json)
