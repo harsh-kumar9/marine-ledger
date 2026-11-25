@@ -115,6 +115,9 @@ def paired(args):
         rows = read_rows(path)
         scores[name] = metrics(refs, rows)
         exact[name] = {r["id"] for r in rows if normalize(r["text"]) == refs[r["id"]]}
+        scores[name]["correct_by_reference_length"] = dict(sorted(
+            Counter(len(refs[i]) for i in exact[name]).items()
+        ))
     comparisons = {}
     for name in ("before_adaptation", "ocr_primary", "ocr_selected"):
         a, b = exact["tuned"], exact[name]

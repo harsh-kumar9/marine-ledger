@@ -1,0 +1,47 @@
+{
+  "selection_manifest_sha256": "2afbffcb715b7d209849f8b15af6a5877725a8aa1ad996b5e951c0d6912052ed",
+  "tesseract": "tesseract 5.1.0",
+  "imagemagick": "Version: ImageMagick 7.0.8-44 Q16 x86_64 2019-05-11 https://imagemagick.org",
+  "trials": [
+    {
+      "psm": 8,
+      "enlarge": false,
+      "correct": 24,
+      "cells": 67,
+      "edits": 60,
+      "reference_characters": 125,
+      "cer": 0.48
+    },
+    {
+      "psm": 7,
+      "enlarge": false,
+      "correct": 47,
+      "cells": 67,
+      "edits": 28,
+      "reference_characters": 125,
+      "cer": 0.224
+    },
+    {
+      "psm": 8,
+      "enlarge": true,
+      "correct": 20,
+      "cells": 67,
+      "edits": 73,
+      "reference_characters": 125,
+      "cer": 0.584
+    },
+    {
+      "psm": 7,
+      "enlarge": true,
+      "correct": 44,
+      "cells": 67,
+      "edits": 30,
+      "reference_characters": 125,
+      "cer": 0.24
+    }
+  ],
+  "selected": {
+    "psm": 7,
+    "enlarge": false
+  }
+}
