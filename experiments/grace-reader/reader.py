@@ -55,6 +55,8 @@ def get_weights(path, device):
 
 def fonts():
     # Explicit family allowlist. Use the same installed fonts in the reference run.
+    from fontTools.ttLib import TTFont
+
     stems = ('DejaVuSerif', 'DejaVuSans', 'LiberationSerif', 'LiberationSans', 'LiberationMono', 'cmr10')
     dirs = [Path('/usr/share/fonts'), Path('/usr/local/share/fonts')]
     try:
@@ -66,7 +68,12 @@ def fonts():
     for directory in dirs:
         for file in sorted(directory.rglob('*.ttf')):
             if file.stem.startswith(stems) and 'Math' not in file.stem:
-                by_name.setdefault(file.name, file)
+                if file.name in by_name:
+                    continue
+                with TTFont(file) as face:
+                    cmap = face.getBestCmap() or {}
+                    if all(ord(ch) in cmap for ch in string.ascii_letters + string.digits + '.-'):
+                        by_name[file.name] = file
     if not by_name:
         raise RuntimeError('install DejaVu or Liberation TrueType fonts')
     return [by_name[name] for name in sorted(by_name)]
