@@ -2,7 +2,11 @@
 
 This is an experiment in iteratively building pipelines for open-world discovery with frontier language models. Agents read historical expedition reports, trace observations to the printed pages, and test whether catalogs already represent them. When a reading task repeatedly fails, we benchmark a specialist model against OCR on a different expedition before using it to generate new records.
 
-**Grace transfer experiment.** We trained a station-identifier reader on Pola and Albatross, selected its checkpoint on Ingolf, and held out an entire Challenger report. On its 31 test crops the adapted reader recovered 25 exact identifiers, the synthetic-only reader 27, and the two OCR configurations 26 and 27. [Held-out results, sources, checkpoints and reproduction](experiments/grace-reader/README.md)
+**Two samples at one spot.** In 1890 the *Pola* took a surface sample and a 700-metre dredge at the same printed coordinates. A modern catalog search returns nine records for the deep operation. To find out what the crew caught at the surface, we had to join the species account to the original station log. [Read the illustrated field note and see the two source pages](explainers/two-stations.md)
+
+![A cross-section shows the Pola surface net and the 700-metre dredge at the same location. The nine catalog records belong to the deeper operation.](explainers/two-stations.svg)
+
+**How well can an AI read the station log?** TrOCR with published weights read 60/67 Ingolf identifiers and 31/31 Challenger identifiers on Grace. The best Tesseract setting read 47/67 and 27/31. Two Luna subagents each read 61/67 and 31/31, including six identical errors on the faint Ingolf page. This result supports trying the pretrained reader on a new report before fine-tuning. [See a shared reading error and all five results](experiments/grace-reader/pretrained/README.md) · [Earlier trained model and sealed test](experiments/grace-reader/README.md)
 
 Can a published collection event be recovered from a historical expedition report and reconciled with modern marine records? This pilot starts with one ship, the *Pola*, and two reports from its eastern Mediterranean voyages. Sturany’s 1896 report has a modern digitization for calibration. Oberwimmer’s 1898 report supplies an adjacent search for pelagic molluscs. [BHL volume](https://www.biodiversitylibrary.org/item/100795) · [MedOBIS digitization](https://doi.org/10.25607/mu0n0i)
 

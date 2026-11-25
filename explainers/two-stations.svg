@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="664" viewBox="0 0 760 664" role="img" aria-labelledby="title desc">
+  <title id="title">Two samples at one spot in the Mediterranean</title>
+  <desc id="desc">On 6 September 1890 northwest of Benghazi, Pola station 38 used a surface net. Station 37 used a dredge at 700 metres. Nine nearby catalog entries belong to station 37. The historical station 38 sea snail record still needs a separate duplicate check.</desc>
+  <defs>
+    <linearGradient id="sea" x1="0" x2="0" y1="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d6f1ec"/><stop offset="1" stop-color="#80b7bd"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="664" rx="12" fill="#f8f6ee"/>
+  <g fill="#103f47" font-family="Arial, Helvetica, sans-serif">
+    <text x="38" y="47" font-size="18" letter-spacing="1.4" font-weight="700">POLA EXPEDITION  /  6 SEPTEMBER 1890</text>
+    <text x="36" y="105" font-family="Georgia, serif" font-size="49">Two samples at one spot</text>
+    <text x="38" y="144" font-size="23">Northwest of Benghazi, in the Mediterranean</text>
+    <rect x="38" y="178" width="213" height="369" rx="8" fill="#f1e7cc"/>
+    <path d="M38 246 Q50 240 62 246 T86 246 T110 246 T134 246 T158 246 T182 246 T206 246 T230 246 Q240 242 251 246 V547 H38Z" fill="url(#sea)"/>
+    <path d="M38 246 Q50 240 62 246 T86 246 T110 246 T134 246 T158 246 T182 246 T206 246 T230 246 Q240 242 251 246" stroke="#276c72" stroke-width="2.5" fill="none"/>
+    <path d="M88 229h86l-11 10h-62z M111 219h34v10h-34z M125 211h4v8h-4z" fill="#25484e"/>
+    <path d="M169 239l19 9 M103 239l25 270" stroke="#33666d" stroke-dasharray="4 5" stroke-width="2" fill="none"/>
+    <path d="M176 248h25l-6 13h-13z M117 508h24l5 7h-34z" fill="#246971"/>
+    <g font-size="16" fill="#15494e">
+      <text x="47" y="268">0 m</text><text x="47" y="383">350 m</text><text x="47" y="514">700 m</text>
+    </g>
+    <g fill="none" stroke="#367880" stroke-width="2">
+      <path d="M198 248h74"/><path d="M147 510h125"/>
+    </g>
+    <circle cx="272" cy="248" r="4" fill="#367880"/><circle cx="272" cy="510" r="4" fill="#367880"/>
+    <text x="292" y="230" font-size="19" fill="#216770" font-weight="700" letter-spacing="1">STATION 38</text>
+    <text x="292" y="265" font-size="29" font-weight="700">A net at the surface</text>
+    <text x="292" y="307" font-size="22">The report lists a sea snail here.</text>
+    <text x="292" y="339" font-size="22" font-style="italic">Pterotrachea hippocampus</text>
+    <text x="292" y="414" font-size="19" fill="#216770" font-weight="700" letter-spacing="1">STATION 37</text>
+    <text x="292" y="450" font-size="29" font-weight="700">A dredge at 700 m</text>
+    <text x="292" y="492" font-size="22">Nine catalog records from this</text>
+    <text x="292" y="522" font-size="22">date and place belong here.</text>
+    <path d="M38 572h684" stroke="#b7c6bf"/>
+    <text x="38" y="611" font-size="23" font-weight="700">A map pin can hide two different collections.</text>
+    <text x="38" y="643" font-size="21">The surface record still needs a duplicate check.</text>
+  </g>
+</svg>
