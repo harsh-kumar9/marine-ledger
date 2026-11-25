@@ -1,0 +1,282 @@
+{
+  "gate_passed": true,
+  "expected_positive": 8,
+  "correct_positive": 8,
+  "evaluation_predictions": 8,
+  "negative_controls": [
+    {
+      "page": 32372963,
+      "name": "Fusus bengasiensis",
+      "anchor": "subfossil",
+      "reason": "A recovered subfossil cannot establish presence of contemporary animals.",
+      "passed": true
+    },
+    {
+      "page": 32372962,
+      "name": "Scalaria funiculata",
+      "anchor": "Scalaria funiculata Wats. von Pernambuco",
+      "reason": "Comparison species from Pernambuco.",
+      "passed": true
+    },
+    {
+      "page": 32372962,
+      "name": "Scalaria plicosa",
+      "anchor": "Scalaria plicosa Phil.",
+      "reason": "Cited fossil comparison.",
+      "passed": true
+    }
+  ],
+  "associations": [
+    {
+      "name": "Trophon vaginatus",
+      "station": 1,
+      "page": 32372963,
+      "heading": "1. Trophon vaginatus Jan. — Kobelt Prodr. p.9; Carus Prodr. p. 384.",
+      "station_text": "Von den Stationen 1 und 213 (597—615 m).",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_1"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/181c89b4-7e5a-4ad2-bb82-a23fd252961c"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Trophon vaginatus",
+      "station": 213,
+      "page": 32372963,
+      "heading": "1. Trophon vaginatus Jan. — Kobelt Prodr. p.9; Carus Prodr. p. 384.",
+      "station_text": "Von den Stationen 1 und 213 (597—615 m).",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_135"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/09f7752e-373f-4e10-849c-ba235d9ebaff"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Trophon muricatus",
+      "station": 213,
+      "page": 32372963,
+      "heading": "2. Trophon muricatus Montagu. — Kobelt Prodr. p. 10; Carus Prodr. p. 384.",
+      "station_text": "Von Station 213 (597 wz); 3 junge Exemplare.",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_136"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/1fdbe7d1-578a-4f22-84e5-9037f2f1b0a0"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Fusus rostratus",
+      "station": 1,
+      "page": 32372963,
+      "heading": "3. Fusus rostratus Oliv. — Kobelt Prodr. p.16; Carus Prodr. p. 404.",
+      "station_text": "Von den Stationen 1 und 62 (615—755 m). Einige Exemplare.",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_2"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/e8b5edc4-3aef-4f1d-9bd1-37dfbf5b6516"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Fusus rostratus",
+      "station": 62,
+      "page": 32372963,
+      "heading": "3. Fusus rostratus Oliv. — Kobelt Prodr. p.16; Carus Prodr. p. 404.",
+      "station_text": "Von den Stationen 1 und 62 (615—755 m). Einige Exemplare.",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_58"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/46c975c0-e714-4dad-a3a9-dc25cbcb27cb"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Fusus pulchellus",
+      "station": 227,
+      "page": 32372963,
+      "heading": "4. Fusus pulchellus Phil. — Kobelt Prodr. p.17; Carus Prodr. p. 405.",
+      "station_text": "Von Station 227 (92m). Eine Anzahl typischer Exemplare.",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_154"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/df6bc7a5-532f-45d9-81be-0d36e7e7292e"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Fusus bengasiensis",
+      "station": 36,
+      "page": 32372963,
+      "heading": "5. Fusus bengasiensis n. sp. — Taf. 1, Fig. 1 u. 2.",
+      "station_text": "Von Station 36 (680 1); subfossil.",
+      "subfossil": true,
+      "comparison_ids": [
+        "Pola_Mollusca_30"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/cf14c60c-c8d2-468d-9940-fbdb39add2e2"
+      ],
+      "state": "excluded_subfossil"
+    },
+    {
+      "name": "Nassa limata",
+      "station": 1,
+      "page": 32372963,
+      "heading": "6. Nassa limata Chemn. — Kobelt Prodr. p. 45; Carus Prodr. p. 393.",
+      "station_text": "Von den Stationen 1 und 214 (683—615 4m); junge abgestorbene Gehaduse. :",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_3"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/8323fa32-530f-4ed9-b1dd-8394948ecd57"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Nassa limata",
+      "station": 214,
+      "page": 32372963,
+      "heading": "6. Nassa limata Chemn. — Kobelt Prodr. p. 45; Carus Prodr. p. 393.",
+      "station_text": "Von den Stationen 1 und 214 (683—615 4m); junge abgestorbene Gehaduse. :",
+      "subfossil": false,
+      "comparison_ids": [],
+      "comparison_urls": [],
+      "state": "unmatched_in_pola_subset"
+    },
+    {
+      "name": "Marginella occulta",
+      "station": 36,
+      "page": 32372962,
+      "heading": "7. Marginella occulta Monter. — Kobelt Prodr. p.56; Carus Prodr. p. 411.",
+      "station_text": "Von den Stationen 36 (680 w) und 194 (160 m).",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_31"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/bf6c205c-94fe-4f5a-9898-4c4bae8ba30f"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Marginella occulta",
+      "station": 194,
+      "page": 32372962,
+      "heading": "7. Marginella occulta Monter. — Kobelt Prodr. p.56; Carus Prodr. p. 411.",
+      "station_text": "Von den Stationen 36 (680 w) und 194 (160 m).",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_96"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/057fe3e5-3a4d-44af-aa5a-2ded75649870"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Natica millepunctata",
+      "station": 36,
+      "page": 32372962,
+      "heading": "8. Natica millepunctata Lam. — Kobelt Prodr. p.64; Carus Prodr. p. 300.",
+      "station_text": "Von Station 36 (680 m7).",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_32"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/bf1c80f7-089c-43bb-b378-8b94eb4788e9"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Natica fusca",
+      "station": 237,
+      "page": 32372962,
+      "heading": "9. Natica fusca Blainv. — Kobelt Prodr. p.68; Carus Prodr. p. 304.",
+      "station_text": "Von Station *237 (588 m); 2 Exemplare.",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_163"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/c657baed-02bf-4778-9c16-9946241d7d32"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Scalaria cerigottana",
+      "station": 194,
+      "page": 32372962,
+      "heading": "10. Scalaria cerigottana n. sp. — Taf.I, Fig. 3 u. 4.",
+      "station_text": "Von Station 194 (160m).",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_97"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/8dec08aa-5618-4318-bee3-b43633baedd0"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Parthenia excavata",
+      "station": 194,
+      "page": 32372962,
+      "heading": "11. Parthenia excavata Phil. — Kobelt Prodr. p. 99; Carus Prodr. p. 276.",
+      "station_text": "Von Station 194 (160m); 1 typisches Exemplar.",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_98"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/0094aa87-ba48-49cf-9bc7-85121ab3daca"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Eulimella scillae",
+      "station": 194,
+      "page": 32372962,
+      "heading": "12. Eulimella scillae Scacchi. — Kobelt Prodr. p. 111; Carus Prodr. p. 267.",
+      "station_text": "Von Station 194 (160m); 1 typisches Exemplar.",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_99"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/5c5d3b1d-0e8e-44ea-9cd9-d338b5474340"
+      ],
+      "state": "represented"
+    },
+    {
+      "name": "Eulimella ventricosa",
+      "station": 194,
+      "page": 32372962,
+      "heading": "13. Eulimella ventricosa Forbes. — Kobelt Prodr. p. 111; Carus Prodr. p. 266.",
+      "station_text": "Von Station 194 (160 m2).",
+      "subfossil": false,
+      "comparison_ids": [
+        "Pola_Mollusca_100"
+      ],
+      "comparison_urls": [
+        "https://obis.org/occurrence/60187b4b-ad85-4ab0-82bf-9e7141c57ca6"
+      ],
+      "state": "represented"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "gate_passed": true,
+  "cases": [
+    {
+      "id": "pola-38-139945",
+      "question": "Does the historical Pterotrachea hippocampus sample at Pola station 38 duplicate an existing record, and what would establish its identity?",
+      "evidence": [
+        {
+          "id": "station-table",
+          "source": "https://www.biodiversitylibrary.org/page/32372996",
+          "detail": "Printed p. 5, station 38: 6./IX. 1890, 32°25′14″ N, 19°49′57″ E; Oberflächennetz (surface net). Names transcribed from the scan: Pterotrachea hippocampus. The geodetic datum is unspecified."
+        },
+        {
+          "id": "account-1",
+          "source": "https://www.biodiversitylibrary.org/page/32373005",
+          "detail": "2. Pterotrachea hippocampus Phil. — Carus Prodr. p. 480. Von den Stationen 38, 41 und 118 (pelagisch) im Ostlichen Mittelmeere; in der Adria nicht vor- (raw OCR line). The scan specifies eastern Mediterranean captures and explicitly excludes the Adriatic here."
+        },
+        {
+          "id": "worms-1",
+          "source": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=139945",
+          "detail": "WoRMS lists Pterotrachea hippocampus as accepted, with accepted name Pterotrachea hippocampus (AphiaID 139945). The station review groups names under that ID. Historical identifications and specimen counts remain unresolved."
+        },
+        {
+          "id": "pola",
+          "source": "https://api.obis.org/v3/occurrence?datasetid=e0de7c96-c16f-4815-b4f4-2d2a24e497dc&size=500&fields=id%2CoccurrenceID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CacceptedNameUsage%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2CminimumDepthInMeters%2Clocality%2CcatalogNumber",
+          "detail": "292 matching rows in the query. Entire curated Pola Mollusken I dataset, a different report from the same expedition."
+        },
+        {
+          "id": "family-world",
+          "source": "https://api.obis.org/v3/occurrence?taxonid=225072&startdate=1885-01-01&enddate=1900-12-31&size=500&fields=id%2CoccurrenceID%2Cdataset_id%2CdatasetID%2CdatasetName%2CbibliographicCitation%2Clicense%2CrightsHolder%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+          "detail": "25 matching rows in the query. Worldwide Pterotracheidae, 1885 through 1900; records outside the station rectangle are retained in the snapshot."
+        },
+        {
+          "id": "family-area",
+          "source": "https://api.obis.org/v3/occurrence?taxonid=225072&geometry=POLYGON+%28%2818+31%2C+22+31%2C+22+34%2C+18+34%2C+18+31%29%29&size=500&fields=id%2CoccurrenceID%2CdatasetID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+          "detail": "0 matching rows in the query. Pterotracheidae with all dates in 18–22 E, 31–34 N, covering the stations."
+        },
+        {
+          "id": "day-area",
+          "source": "https://api.obis.org/v3/occurrence?geometry=POLYGON+%28%2818+31%2C+22+31%2C+22+34%2C+18+34%2C+18+31%29%29&startdate=1890-09-06&enddate=1890-09-06&size=500&fields=id%2CoccurrenceID%2CdatasetID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+          "detail": "9 matching rows in the query. All taxa in the same rectangle on the collecting date. Station 37 is a separate operation at the coordinates of station 38."
+        },
+        {
+          "id": "overlap-screen",
+          "source": "https://api.obis.org/v3/occurrence?geometry=POLYGON+%28%2818+31%2C+22+31%2C+22+34%2C+18+34%2C+18+31%29%29&startdate=1890-09-06&enddate=1890-09-06&size=500&fields=id%2CoccurrenceID%2CdatasetID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+          "detail": "Possible catalog row IDs under the declared comparisons: none. Missing or mistranscribed locality, taxonomy or date and uncatalogued physical lots can defeat this search."
+        }
+      ]
+    },
+    {
+      "id": "pola-41-139944",
+      "question": "Does the historical Pterotrachea coronata sample at Pola station 41 duplicate an existing record, and what would establish its identity?",
+      "evidence": [
+        {
+          "id": "station-table",
+          "source": "https://www.biodiversitylibrary.org/page/32372996",
+          "detail": "Printed p. 5, station 41: 6./IX. 1890, 32°50′ N, 19°44′30″ E; Oberflächennetz (surface net). Names transcribed from the scan: Pterotrachea coronata. The geodetic datum is unspecified."
+        },
+        {
+          "id": "account-1",
+          "source": "https://www.biodiversitylibrary.org/page/32373005",
+          "detail": "1. Pterotrachea coronata Forsk. — Carus Prodr. p. 480. Von den Stationen 41 und 180 (pelagisch) im 6stlichen Mittelmeere; in der Adria nicht vorgefunden. (raw OCR line). The scan specifies eastern Mediterranean captures and explicitly excludes the Adriatic here."
+        },
+        {
+          "id": "worms-1",
+          "source": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=139944",
+          "detail": "WoRMS lists Pterotrachea coronata as accepted, with accepted name Pterotrachea coronata (AphiaID 139944). The station review groups names under that ID. Historical identifications and specimen counts remain unresolved."
+        },
+        {
+          "id": "pola",
+          "source": "https://api.obis.org/v3/occurrence?datasetid=e0de7c96-c16f-4815-b4f4-2d2a24e497dc&size=500&fields=id%2CoccurrenceID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CacceptedNameUsage%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2CminimumDepthInMeters%2Clocality%2CcatalogNumber",
+          "detail": "292 matching rows in the query. Entire curated Pola Mollusken I dataset, a different report from the same expedition."
+        },
+        {
+          "id": "family-world",
+          "source": "https://api.obis.org/v3/occurrence?taxonid=225072&startdate=1885-01-01&enddate=1900-12-31&size=500&fields=id%2CoccurrenceID%2Cdataset_id%2CdatasetID%2CdatasetName%2CbibliographicCitation%2Clicense%2CrightsHolder%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+          "detail": "25 matching rows in the query. Worldwide Pterotracheidae, 1885 through 1900; records outside the station rectangle are retained in the snapshot."
+        },
+        {
+          "id": "family-area",
+          "source": "https://api.obis.org/v3/occurrence?taxonid=225072&geometry=POLYGON+%28%2818+31%2C+22+31%2C+22+34%2C+18+34%2C+18+31%29%29&size=500&fields=id%2CoccurrenceID%2CdatasetID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+          "detail": "0 matching rows in the query. Pterotracheidae with all dates in 18–22 E, 31–34 N, covering the stations."
+        },
+        {
+          "id": "day-area",
+          "source": "https://api.obis.org/v3/occurrence?geometry=POLYGON+%28%2818+31%2C+22+31%2C+22+34%2C+18+34%2C+18+31%29%29&startdate=1890-09-06&enddate=1890-09-06&size=500&fields=id%2CoccurrenceID%2CdatasetID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+          "detail": "9 matching rows in the query. All taxa in the same rectangle on the collecting date. Station 37 is a separate operation at the coordinates of station 38."
+        },
+        {
+          "id": "overlap-screen",
+          "source": "https://api.obis.org/v3/occurrence?geometry=POLYGON+%28%2818+31%2C+22+31%2C+22+34%2C+18+34%2C+18+31%29%29&startdate=1890-09-06&enddate=1890-09-06&size=500&fields=id%2CoccurrenceID%2CdatasetID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+          "detail": "Possible catalog row IDs under the declared comparisons: none. Missing or mistranscribed locality, taxonomy or date and uncatalogued physical lots can defeat this search."
+        }
+      ]
+    },
+    {
+      "id": "pola-41-139945",
+      "question": "Does the historical Pterotrachea hippocampus sample at Pola station 41 duplicate an existing record, and what would establish its identity?",
+      "evidence": [
+        {
+          "id": "station-table",
+          "source": "https://www.biodiversitylibrary.org/page/32372996",
+          "detail": "Printed p. 5, station 41: 6./IX. 1890, 32°50′ N, 19°44′30″ E; Oberflächennetz (surface net). Names transcribed from the scan: Pterotrachea hippocampus, Pterotrachea mutica. The geodetic datum is unspecified."
+        },
+        {
+          "id": "account-1",
+          "source": "https://www.biodiversitylibrary.org/page/32373005",
+          "detail": "2. Pterotrachea hippocampus Phil. — Carus Prodr. p. 480. Von den Stationen 38, 41 und 118 (pelagisch) im Ostlichen Mittelmeere; in der Adria nicht vor- (raw OCR line). The scan specifies eastern Mediterranean captures and explicitly excludes the Adriatic here."
+        },
+        {
+          "id": "worms-1",
+          "source": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=139945",
+          "detail": "WoRMS lists Pterotrachea hippocampus as accepted, with accepted name Pterotrachea hippocampus (AphiaID 139945). The station review groups names under that ID. Historical identifications and specimen counts remain unresolved."
+        },
+        {
+          "id": "account-2",
+          "source": "https://www.biodiversitylibrary.org/page/32373005",
+          "detail": "4. Pterotrachea mutica Les. — Carus Prodr. p. 48]. Von den Stationen 41 und 114 (pelagisch) im éstlichen Mittelmeere; in der Adria nicht vorgefunden. (raw OCR line). The scan specifies eastern Mediterranean captures and explicitly excludes the Adriatic here."
+        },
+        {
+          "id": "worms-2",
+          "source": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=238124",
+          "detail": "WoRMS lists Pterotrachea mutica as uncertain synonym, with accepted name Pterotrachea hippocampus (AphiaID 139945). The station review groups names under that ID. Historical identifications and specimen counts remain unresolved."
+        },
+        {
+          "id": "pola",
+          "source": "https://api.obis.org/v3/occurrence?datasetid=e0de7c96-c16f-4815-b4f4-2d2a24e497dc&size=500&fields=id%2CoccurrenceID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CacceptedNameUsage%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2CminimumDepthInMeters%2Clocality%2CcatalogNumber",
+          "detail": "292 matching rows in the query. Entire curated Pola Mollusken I dataset, a different report from the same expedition."
+        },
+        {
+          "id": "family-world",
+          "source": "https://api.obis.org/v3/occurrence?taxonid=225072&startdate=1885-01-01&enddate=1900-12-31&size=500&fields=id%2CoccurrenceID%2Cdataset_id%2CdatasetID%2CdatasetName%2CbibliographicCitation%2Clicense%2CrightsHolder%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+          "detail": "25 matching rows in the query. Worldwide Pterotracheidae, 1885 through 1900; records outside the station rectangle are retained in the snapshot."
+        },
+        {
+          "id": "family-area",
+          "source": "https://api.obis.org/v3/occurrence?taxonid=225072&geometry=POLYGON+%28%2818+31%2C+22+31%2C+22+34%2C+18+34%2C+18+31%29%29&size=500&fields=id%2CoccurrenceID%2CdatasetID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+          "detail": "0 matching rows in the query. Pterotracheidae with all dates in 18–22 E, 31–34 N, covering the stations."
+        },
+        {
+          "id": "day-area",
+          "source": "https://api.obis.org/v3/occurrence?geometry=POLYGON+%28%2818+31%2C+22+31%2C+22+34%2C+18+34%2C+18+31%29%29&startdate=1890-09-06&enddate=1890-09-06&size=500&fields=id%2CoccurrenceID%2CdatasetID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+          "detail": "9 matching rows in the query. All taxa in the same rectangle on the collecting date. Station 37 is a separate operation at the coordinates of station 38."
+        },
+        {
+          "id": "overlap-screen",
+          "source": "https://api.obis.org/v3/occurrence?geometry=POLYGON+%28%2818+31%2C+22+31%2C+22+34%2C+18+34%2C+18+31%29%29&startdate=1890-09-06&enddate=1890-09-06&size=500&fields=id%2CoccurrenceID%2CdatasetID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+          "detail": "Possible catalog row IDs under the declared comparisons: none. Missing or mistranscribed locality, taxonomy or date and uncatalogued physical lots can defeat this search."
+        }
+      ]
+    }
+  ]
+}

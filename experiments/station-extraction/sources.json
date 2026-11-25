@@ -1,0 +1,65 @@
+{
+  "accessed": "2026-11-25",
+  "inputs": [
+    {
+      "file": "sources/32372961.txt",
+      "url": "https://bhl-open-data.s3.amazonaws.com/ocr/item-100795/item-100795-32372961-0022.txt",
+      "sha256": "b2559afe5c8d2977fd5fa88c92a17f8e2c0bd92831a3510f95e99eb05be1e2c1"
+    },
+    {
+      "file": "sources/32372961.jp2",
+      "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0022.jp2",
+      "sha256": "69a1b3cce8ee66359bd5a86e2727cef7fa93ae9534b63fc986ce0167b82bb669"
+    },
+    {
+      "file": "sources/32372960.txt",
+      "url": "https://bhl-open-data.s3.amazonaws.com/ocr/item-100795/item-100795-32372960-0023.txt",
+      "sha256": "395b0fc9e4c54e60506101f929639a4111e5e73cf077f99f8fc3f4abfcef2bc8"
+    },
+    {
+      "file": "sources/32372960.jp2",
+      "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0023.jp2",
+      "sha256": "211f223f22773a61cce925e5a098567551b8df7fdbd23bb8da6f490b89d7d78f"
+    },
+    {
+      "file": "sources/32372959.txt",
+      "url": "https://bhl-open-data.s3.amazonaws.com/ocr/item-100795/item-100795-32372959-0024.txt",
+      "sha256": "33a806266d1c5429f132488ad42f1fe9f386a23f4f9e801f028928743edbebe0"
+    },
+    {
+      "file": "sources/32372959.jp2",
+      "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0024.jp2",
+      "sha256": "f5a30e010639a9c33d1aaed80ab132d43460623b04d1e6b1de1ad74465ae9e56"
+    },
+    {
+      "file": "sources/32372958.txt",
+      "url": "https://bhl-open-data.s3.amazonaws.com/ocr/item-100795/item-100795-32372958-0025.txt",
+      "sha256": "8d95a74c7397167279c88fd08e43705e4bd05b8522cff55d3991090ff6a0d0fe"
+    },
+    {
+      "file": "sources/32372958.jp2",
+      "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0025.jp2",
+      "sha256": "40c67fa790438b141d193c0d859fe3020f00ad6d5b56c0b1161a6b4ac748d65f"
+    },
+    {
+      "file": "sources/32372957.txt",
+      "url": "https://bhl-open-data.s3.amazonaws.com/ocr/item-100795/item-100795-32372957-0026.txt",
+      "sha256": "39faa97fcab9be826ce74f34cac1f94eb0f04abccc9efd50d934d043b9d6b2df"
+    },
+    {
+      "file": "sources/32372957.jp2",
+      "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0026.jp2",
+      "sha256": "b51f65443faeb4567a6dc8c62934216655f0c1f9ffb0067231d48cbb6b93d243"
+    },
+    {
+      "file": "sources/32372956.txt",
+      "url": "https://bhl-open-data.s3.amazonaws.com/ocr/item-100795/item-100795-32372956-0027.txt",
+      "sha256": "554b7a96236b3df31eeb22fcb3fcb1d8e669f808151e3caf5f7e327be6acabb1"
+    },
+    {
+      "file": "sources/32372956.jp2",
+      "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0027.jp2",
+      "sha256": "682ab7f52e65e1160974e7fc9987728b32c39d02a5133562822221085e70f54a"
+    }
+  ]
+}

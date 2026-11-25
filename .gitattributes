@@ -1,0 +1,6 @@
+# Preserve source bytes used by the replay hashes, including archived OCR line endings.
+data/source/** -text -whitespace
+experiments/station-extraction/sources/** -text -whitespace
+experiments/station-extraction/german-ocr/*.txt -text -whitespace
+experiments/station-extraction/tesseract/*.txt -text -whitespace
+*.jp2 binary

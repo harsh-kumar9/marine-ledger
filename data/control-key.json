@@ -1,0 +1,66 @@
+{
+  "development_page": 32372963,
+  "evaluation_page": 32372962,
+  "expected_evaluation_matches": [
+    [
+      "Marginella occulta",
+      36,
+      "Pola_Mollusca_31"
+    ],
+    [
+      "Marginella occulta",
+      194,
+      "Pola_Mollusca_96"
+    ],
+    [
+      "Natica millepunctata",
+      36,
+      "Pola_Mollusca_32"
+    ],
+    [
+      "Natica fusca",
+      237,
+      "Pola_Mollusca_163"
+    ],
+    [
+      "Scalaria cerigottana",
+      194,
+      "Pola_Mollusca_97"
+    ],
+    [
+      "Parthenia excavata",
+      194,
+      "Pola_Mollusca_98"
+    ],
+    [
+      "Eulimella scillae",
+      194,
+      "Pola_Mollusca_99"
+    ],
+    [
+      "Eulimella ventricosa",
+      194,
+      "Pola_Mollusca_100"
+    ]
+  ],
+  "negatives": [
+    {
+      "page": 32372962,
+      "name": "Scalaria funiculata",
+      "anchor": "Scalaria funiculata Wats. von Pernambuco",
+      "reason": "Comparison species from Pernambuco."
+    },
+    {
+      "page": 32372962,
+      "name": "Scalaria plicosa",
+      "anchor": "Scalaria plicosa Phil.",
+      "reason": "Cited fossil comparison."
+    },
+    {
+      "page": 32372963,
+      "name": "Fusus bengasiensis",
+      "anchor": "subfossil",
+      "reason": "A recovered subfossil cannot establish presence of contemporary animals."
+    }
+  ]
+}

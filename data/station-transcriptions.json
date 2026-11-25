@@ -1,0 +1,51 @@
+{
+  "station_page": 32372996,
+  "species_page": 32373005,
+  "method": "Visual transcription of 1898 printed report, p. 5. Ditto marks repeat the genus. Keep the original DMS text and omit a modern datum or inferred precision.",
+  "stations": [
+    {
+      "station": 38,
+      "date": "1890-09-06",
+      "verbatimEventDate": "6./IX. 1890",
+      "longitude_dms": [
+        19,
+        49,
+        57
+      ],
+      "latitude_dms": [
+        32,
+        25,
+        14
+      ],
+      "verbatimLongitude": "19°49′57″ E",
+      "verbatimLatitude": "32°25′14″ N",
+      "gear": "Oberflächennetz",
+      "names": [
+        "Pterotrachea hippocampus"
+      ]
+    },
+    {
+      "station": 41,
+      "date": "1890-09-06",
+      "verbatimEventDate": "6./IX. 1890",
+      "longitude_dms": [
+        19,
+        44,
+        30
+      ],
+      "latitude_dms": [
+        32,
+        50,
+        0
+      ],
+      "verbatimLongitude": "19°44′30″ E",
+      "verbatimLatitude": "32°50′ N",
+      "gear": "Oberflächennetz",
+      "names": [
+        "Pterotrachea coronata",
+        "Pterotrachea hippocampus",
+        "Pterotrachea mutica"
+      ]
+    }
+  ]
+}

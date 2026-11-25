@@ -1,0 +1,65 @@
+{
+  "retrieved_utc_day": "2026-11-25",
+  "files": {
+    "32372963.txt": {
+      "url": "https://bhl-open-data.s3.amazonaws.com/ocr/item-100795/item-100795-32372963-0020.txt",
+      "sha256": "8ff4e4b272649c20f14e0d49a63ffdfb9a3b324094510345343c3701d39786b5"
+    },
+    "32372963.jp2": {
+      "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0020.jp2",
+      "sha256": "9c844b99439f306b427a229d24ecf112b76272b51040f1c43cb386453952d401"
+    },
+    "32372962.txt": {
+      "url": "https://bhl-open-data.s3.amazonaws.com/ocr/item-100795/item-100795-32372962-0021.txt",
+      "sha256": "655dfd58c9da4f56c67f278a98151b1448bbdbfb3a3472ac3221ac65268ceb9e"
+    },
+    "32372962.jp2": {
+      "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0021.jp2",
+      "sha256": "8d06d2be622fe56971ad1a651045591aa2d6659fc9d2f4149ebae466f19bd525"
+    },
+    "32372996.txt": {
+      "url": "https://bhl-open-data.s3.amazonaws.com/ocr/item-100795/item-100795-32372996-0085.txt",
+      "sha256": "637c0006fdc79042f0040dc8b58fcb9e52b5695512cd6135c15cdf88d99f72f7"
+    },
+    "32372996.jp2": {
+      "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0085.jp2",
+      "sha256": "f4f0e2398af4f3ae3c57c7ce0830941a06e62b819cc22f966c179dff76ecc361"
+    },
+    "32373005.txt": {
+      "url": "https://bhl-open-data.s3.amazonaws.com/ocr/item-100795/item-100795-32373005-0094.txt",
+      "sha256": "366b9093635ea6456b861a5f67fe276a543dd48bf66dca16a3657a9c21c47291"
+    },
+    "32373005.jp2": {
+      "url": "https://bhl-open-data.s3.amazonaws.com/images/polaexpeditionmo00wien/polaexpeditionmo00wien_0094.jp2",
+      "sha256": "9688e315a22576618b3227f374756dd2dc0ff31ed4c71a7e7e4dd70d6a3be7fe"
+    },
+    "worms-coronata.json": {
+      "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Pterotrachea%20coronata?like=false&marine_only=true",
+      "sha256": "142f3f4fe463961b7575a57ebb08565892209700a57dd12ec98361fa6e8e7ef8"
+    },
+    "worms-hippocampus.json": {
+      "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Pterotrachea%20hippocampus?like=false&marine_only=true",
+      "sha256": "4d36308aa4dd69868662f63d0e70adc491541d0c170e1409a5c33d63f5f6d24e"
+    },
+    "worms-mutica.json": {
+      "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Pterotrachea%20mutica?like=false&marine_only=true",
+      "sha256": "a6e4740c0c360e621a066ab710edb542f31b80361053e9c15f24a3faf4c012f8"
+    },
+    "obis-pola.json": {
+      "url": "https://api.obis.org/v3/occurrence?datasetid=e0de7c96-c16f-4815-b4f4-2d2a24e497dc&size=500&fields=id%2CoccurrenceID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CacceptedNameUsage%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2CminimumDepthInMeters%2Clocality%2CcatalogNumber",
+      "sha256": "5680571b569676466149e5cd1c419ea29526e19b0d77e29d41c082586316cafd"
+    },
+    "obis-family-world.json": {
+      "url": "https://api.obis.org/v3/occurrence?taxonid=225072&startdate=1885-01-01&enddate=1900-12-31&size=500&fields=id%2CoccurrenceID%2Cdataset_id%2CdatasetID%2CdatasetName%2CbibliographicCitation%2Clicense%2CrightsHolder%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+      "sha256": "935df12d5f405daa81250c70bba40ec3097a2054875a8d4f02349040243037dc"
+    },
+    "obis-family-area.json": {
+      "url": "https://api.obis.org/v3/occurrence?taxonid=225072&geometry=POLYGON+%28%2818+31%2C+22+31%2C+22+34%2C+18+34%2C+18+31%29%29&size=500&fields=id%2CoccurrenceID%2CdatasetID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+      "sha256": "583475f72c772029dd4c54f41e19f42507eeed27df40ebf7b3e88d72e7c582d6"
+    },
+    "obis-day-area.json": {
+      "url": "https://api.obis.org/v3/occurrence?geometry=POLYGON+%28%2818+31%2C+22+31%2C+22+34%2C+18+34%2C+18+31%29%29&startdate=1890-09-06&enddate=1890-09-06&size=500&fields=id%2CoccurrenceID%2CdatasetID%2CeventID%2CeventDate%2CscientificName%2CoriginalScientificName%2CaphiaID%2CverbatimIdentification%2CdecimalLatitude%2CdecimalLongitude%2Clocality",
+      "sha256": "f16cbdbda9e58e24e640c69f98dc8616089bb903ecc9c9a159fde17a56281419"
+    }
+  }
+}
