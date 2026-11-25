@@ -1,6 +1,6 @@
 # Paired comparison on a held-out expedition
 
-This secondary comparison was specified before the Ingolf crops, OCR predictions or Challenger labels were available. The primary comparison remains the one in the [corpus protocol](corpus/protocol.md). All readers get the same source image and the same field location. The output is the full printed station identifier. No reader gets the page number, station inventory, or earlier rows as input.
+This secondary comparison was specified before the Ingolf crops, OCR predictions or Challenger labels were available. The primary comparison remains the one in the [corpus protocol](corpus/PROTOCOL.md). All readers get the same source image and the same field location. The output is the full printed station identifier. No reader gets the page number, station inventory, or earlier rows as input.
 
 In addition to the fixed English Tesseract single-word baseline, try these four English LSTM configurations in order on the validation report. The order breaks exact ties.
 
