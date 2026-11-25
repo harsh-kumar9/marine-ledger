@@ -1,0 +1,1679 @@
+[
+  {
+    "author": "Lamarck",
+    "forms": [
+      "Aquillus (Turritriton) vespaceus",
+      "Triton vespaceum",
+      "Triton vespaceus",
+      "Monoplex vespaceus"
+    ],
+    "heading_line": 35,
+    "id": "vespaceus",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "faab4fbd4097da7a",
+        "returned": 0,
+        "returned_record_context": [],
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Monoplex vespaceus",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "a29fa342dd21ea3b",
+        "status": "ACCEPTED",
+        "usageKey": 6488605
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "f6523dbaafa2511c",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "5318eeb240fbc8d9",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 3,
+          "eventID": 9,
+          "fieldNumber": 9,
+          "locality": 1
+        },
+        "request": "1faf95e3e2a98753",
+        "returned": 9,
+        "siboga_text_records": [],
+        "total": 9,
+        "truncated": false
+      }
+    },
+    "page": 111,
+    "source_caution": "Question mark in heading. Following page calls identification rather uncertain.",
+    "source_image_sha256": "a1f68d9b6f9aab4c945b961b01e95c969c3b7443a4e1c5ea3f20a46676d9f2fd",
+    "source_page": "https://www.biodiversitylibrary.org/page/2205140",
+    "stations": [
+      "37"
+    ],
+    "taxonomy": {
+      "accepted": "Monoplex vespaceus",
+      "accepted_author": "(Lamarck, 1822)",
+      "accepted_request": "28e380189cac3d37",
+      "accepted_status": "accepted",
+      "aphia_id": 476538,
+      "basis": "author-matched alternative combination; subject to historical concept review",
+      "matching_author": "Lamarck, 1822",
+      "matching_id": 476982,
+      "matching_name": "Triton vespaceum",
+      "matching_status": "unaccepted",
+      "queries": [
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Aquillus (Turritriton) vespaceus",
+          "request": "94a4d715bdbcc9a9",
+          "returned": 0
+        },
+        {
+          "matching_ids": [
+            476982
+          ],
+          "other_names": [],
+          "query_name": "Triton vespaceum",
+          "request": "ef4645883c8dae14",
+          "returned": 1
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=476538"
+    }
+  },
+  {
+    "author": "Reeve",
+    "forms": [
+      "Aquillus (Turritriton) pfeifferianus",
+      "Triton pfeifferianus",
+      "Reticutriton pfeifferianus"
+    ],
+    "heading_line": 24,
+    "id": "pfeifferianus",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "0af07bebf6fbc1ff",
+        "returned": 0,
+        "returned_record_context": [],
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Reticutriton pfeifferianus",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "a30156c94ae28d54",
+        "status": "ACCEPTED",
+        "usageKey": 6488776
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "b28cb970fc0aa65a",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "2d9a54ece1ae5935",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 22,
+          "eventID": 53,
+          "fieldNumber": 53,
+          "locality": 32
+        },
+        "request": "e13a92a928853c69",
+        "returned": 54,
+        "siboga_text_records": [],
+        "total": 54,
+        "truncated": false
+      }
+    },
+    "page": 112,
+    "source_caution": "A damaged superscript follows 49; station 49A is admitted by the independent conjunction of Sapeh Strait, the printed 69 m and Tydeman register p4. Independent image read joins the split OCR line to 77. Most specimens young.",
+    "source_image_sha256": "f92f9d1e0ad53e007ac52a8e1fd9974f1c58f639e005e8b24fe23cc508f35197",
+    "source_page": "https://www.biodiversitylibrary.org/page/2205139",
+    "stations": [
+      "33",
+      "47",
+      "49A",
+      "71",
+      "77",
+      "164"
+    ],
+    "taxonomy": {
+      "accepted": "Reticutriton pfeifferianus",
+      "accepted_author": "(Reeve, 1844)",
+      "accepted_request": "55f9474fcf3d73f5",
+      "accepted_status": "accepted",
+      "aphia_id": 476566,
+      "basis": "author-matched alternative combination; subject to historical concept review",
+      "matching_author": "Reeve, 1844",
+      "matching_id": 476944,
+      "matching_name": "Triton pfeifferianus",
+      "matching_status": "unaccepted",
+      "queries": [
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Aquillus (Turritriton) pfeifferianus",
+          "request": "4f07409c11204765",
+          "returned": 0
+        },
+        {
+          "matching_ids": [
+            476944
+          ],
+          "other_names": [],
+          "query_name": "Triton pfeifferianus",
+          "request": "1b88313b366b09ca",
+          "returned": 1
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=476566"
+    }
+  },
+  {
+    "author": "Reeve",
+    "forms": [
+      "Aquillus (Lampusia) gemmatus",
+      "Triton gemmatus"
+    ],
+    "heading_line": 11,
+    "id": "gemmatus",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "a281f464d80e76ce",
+        "returned": 0,
+        "returned_record_context": [],
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Monoplex gemmatus",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "49c9f9775c7a7577",
+        "status": "ACCEPTED",
+        "usageKey": 6488552
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "2f45a4c551bd23fe",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "dac29bfa71a5d21c",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 6,
+          "eventID": 16,
+          "fieldNumber": 16,
+          "locality": 2
+        },
+        "request": "acb35220a4f2953c",
+        "returned": 16,
+        "siboga_text_records": [],
+        "total": 16,
+        "truncated": false
+      }
+    },
+    "page": 111,
+    "source_caution": "The author describes the colour of the Banda specimen separately.",
+    "source_image_sha256": "a1f68d9b6f9aab4c945b961b01e95c969c3b7443a4e1c5ea3f20a46676d9f2fd",
+    "source_page": "https://www.biodiversitylibrary.org/page/2205140",
+    "stations": [
+      "47",
+      "240",
+      "304"
+    ],
+    "taxonomy": {
+      "accepted": "Monoplex gemmatus",
+      "accepted_author": "(Reeve, 1844)",
+      "accepted_request": "d3268b380bff02ce",
+      "accepted_status": "accepted",
+      "aphia_id": 476521,
+      "basis": "author-matched alternative combination; subject to historical concept review",
+      "matching_author": "Reeve, 1844",
+      "matching_id": 476916,
+      "matching_name": "Triton gemmatus",
+      "matching_status": "superseded combination",
+      "queries": [
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Aquillus (Lampusia) gemmatus",
+          "request": "026af8636edd7463",
+          "returned": 0
+        },
+        {
+          "matching_ids": [
+            476916
+          ],
+          "other_names": [],
+          "query_name": "Triton gemmatus",
+          "request": "52f357cc46a8a6ff",
+          "returned": 1
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=476521"
+    }
+  },
+  {
+    "author": "Linnaeus",
+    "forms": [
+      "Distortrix anus",
+      "Murex anus",
+      "Distorsio anus"
+    ],
+    "heading_line": 22,
+    "id": "anus",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "ca56690847ae37bb",
+        "returned": 0,
+        "returned_record_context": [],
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Distorsio anus",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "7dc034aee0a6a653",
+        "status": "ACCEPTED",
+        "usageKey": 4360514
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "07bb8f98f6cf9abf",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "0a0c7b6aa6c82b58",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 10,
+          "eventID": 57,
+          "fieldNumber": 52,
+          "locality": 24
+        },
+        "request": "2ad81a458c8af8df",
+        "returned": 57,
+        "siboga_text_records": [],
+        "total": 57,
+        "truncated": false
+      }
+    },
+    "page": 113,
+    "source_caution": "",
+    "source_image_sha256": "1c3a6cf548235d5d8ee6294953dae66e519f622facced329d3bfa75862fde0dd",
+    "source_page": "https://www.biodiversitylibrary.org/page/2204983",
+    "stations": [
+      "234",
+      "240"
+    ],
+    "taxonomy": {
+      "accepted": "Distorsio anus",
+      "accepted_author": "(Linnaeus, 1758)",
+      "accepted_request": "72dbd48f81029468",
+      "accepted_status": "accepted",
+      "aphia_id": 217011,
+      "basis": "historical name",
+      "matching_author": "(Linnaeus, 1758)",
+      "matching_id": 217013,
+      "matching_name": "Distortrix anus",
+      "matching_status": "superseded combination",
+      "queries": [
+        {
+          "matching_ids": [
+            217013
+          ],
+          "other_names": [],
+          "query_name": "Distortrix anus",
+          "request": "2e93ad14efb4a023",
+          "returned": 1
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=217011"
+    }
+  },
+  {
+    "author": "Roissy",
+    "disputed_form": "Distortrix cancellinus",
+    "forms": [
+      "Distortrix cancellinus",
+      "Triton cancellinus",
+      "Murex cancellinus",
+      "Distorsio cancellina"
+    ],
+    "heading_line": 31,
+    "id": "cancellinus",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 1,
+          "decimalLongitude": 1,
+          "eventDate": 0,
+          "eventID": 1,
+          "fieldNumber": 1,
+          "locality": 0
+        },
+        "request": "4d2fa1b54a9f69da",
+        "returned": 1,
+        "returned_record_context": [
+          {
+            "country": "Thailand",
+            "datasetName": "Natural History Museum Aarhus Malacology",
+            "eventDate": "1900-02-23",
+            "eventID": null,
+            "fieldNumber": null,
+            "id": null,
+            "key": 3416265715,
+            "locality": "Koh Chuen (South)",
+            "occurrenceID": "3e6e5843-bb04-4ef9-88ed-7d32d1697a2b",
+            "recordedBy": null
+          }
+        ],
+        "siboga_text_records": [],
+        "total": 1,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Distorsio reticularis",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "2ebc2991eac05c30",
+        "status": "ACCEPTED",
+        "usageKey": 4614357
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "ba5537107c198054",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "a696f11c53a6b21e",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 14,
+          "eventID": 97,
+          "fieldNumber": 96,
+          "locality": 48
+        },
+        "request": "54ceb4d20034450e",
+        "returned": 100,
+        "siboga_text_records": [],
+        "total": 102,
+        "truncated": true
+      }
+    },
+    "page": 113,
+    "source_caution": "The exact WoRMS combination has a different author, Lamarck, from the printed Roissy. Evaluate its accepted name as a competing search hypothesis, withhold author-level equivalence.",
+    "source_image_sha256": "1c3a6cf548235d5d8ee6294953dae66e519f622facced329d3bfa75862fde0dd",
+    "source_page": "https://www.biodiversitylibrary.org/page/2204983",
+    "stations": [
+      "1",
+      "2",
+      "47"
+    ],
+    "taxonomy": {
+      "accepted": "Distorsio reticularis",
+      "accepted_author": "(Linnaeus, 1758)",
+      "accepted_request": "bee2fd7e284031b5",
+      "accepted_status": "accepted",
+      "aphia_id": 476487,
+      "basis": "AUTHOR CONFLICT: sensitivity query only",
+      "matching_author": "(Lamarck, 1803)",
+      "matching_id": 217012,
+      "matching_name": "Distortrix cancellinus",
+      "matching_status": "unaccepted",
+      "queries": [
+        {
+          "matching_ids": [],
+          "other_names": [
+            {
+              "AphiaID": 217012,
+              "authority": "(Lamarck, 1803)",
+              "scientificname": "Distortrix cancellinus",
+              "valid_AphiaID": 476487,
+              "valid_name": "Distorsio reticularis"
+            }
+          ],
+          "query_name": "Distortrix cancellinus",
+          "request": "be147e0f1de77760",
+          "returned": 1
+        },
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Triton cancellinus",
+          "request": "096d185758914365",
+          "returned": 0
+        },
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Murex cancellinus",
+          "request": "386848280395a9a2",
+          "returned": 0
+        },
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Distorsio cancellina",
+          "request": "431345bcb275dfbd",
+          "returned": 0
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=476487"
+    }
+  },
+  {
+    "author": "Reeve",
+    "forms": [
+      "Aquillus (Lampusia) aquatilis",
+      "Triton aquatilis"
+    ],
+    "heading_line": 23,
+    "id": "aquatilis",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "ba585fbbd290ae4c",
+        "returned": 0,
+        "returned_record_context": [],
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Monoplex aquatilis",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "3dacb7c3beee8be0",
+        "status": "ACCEPTED",
+        "usageKey": 6488609
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "ea1c11f11805bba5",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "46d35155ab37e311",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 4,
+          "eventID": 20,
+          "fieldNumber": 19,
+          "locality": 12
+        },
+        "request": "60c73780f1b11b93",
+        "returned": 20,
+        "siboga_text_records": [],
+        "total": 20,
+        "truncated": false
+      }
+    },
+    "page": 110,
+    "source_caution": "The author distinguishes the preceding pilearis against other authorities.",
+    "source_image_sha256": "774ddd557bec06b1316eaa0376de1efdda6acd7b4811245f89afe7c1adcaa4ff",
+    "source_page": "https://www.biodiversitylibrary.org/page/2205141",
+    "stations": [
+      "225"
+    ],
+    "taxonomy": {
+      "accepted": "Monoplex aquatilis",
+      "accepted_author": "(Reeve, 1844)",
+      "accepted_request": "671c914d12ffd69f",
+      "accepted_status": "accepted",
+      "aphia_id": 476516,
+      "basis": "author-matched alternative combination; subject to historical concept review",
+      "matching_author": "Reeve, 1844",
+      "matching_id": 476881,
+      "matching_name": "Triton aquatilis",
+      "matching_status": "unaccepted",
+      "queries": [
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Aquillus (Lampusia) aquatilis",
+          "request": "c434db2575cf421b",
+          "returned": 0
+        },
+        {
+          "matching_ids": [
+            476881
+          ],
+          "other_names": [],
+          "query_name": "Triton aquatilis",
+          "request": "284cc8f643e79c1e",
+          "returned": 1
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=476516"
+    }
+  },
+  {
+    "author": "Linnaeus",
+    "forms": [
+      "Aquillus (Lampusia) pilearis",
+      "Murex pileare",
+      "Murex pilearis",
+      "Monoplex pilearis"
+    ],
+    "heading_line": 4,
+    "id": "pilearis",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "7f21add2a3da6166",
+        "returned": 0,
+        "returned_record_context": [],
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Monoplex pilearis",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "2817c972fd549180",
+        "status": "ACCEPTED",
+        "usageKey": 6488559
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "1832c6c969d99ab9",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "eab2c0f61153b543",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 26,
+          "eventID": 66,
+          "fieldNumber": 66,
+          "locality": 26
+        },
+        "request": "d73bf889dfb00bc3",
+        "returned": 66,
+        "siboga_text_records": [],
+        "total": 66,
+        "truncated": false
+      }
+    },
+    "page": 110,
+    "source_caution": "Discussion on page 110 documents disagreement over the historical species concept.",
+    "source_image_sha256": "774ddd557bec06b1316eaa0376de1efdda6acd7b4811245f89afe7c1adcaa4ff",
+    "source_page": "https://www.biodiversitylibrary.org/page/2205141",
+    "stations": [
+      "4",
+      "47",
+      "53",
+      "172"
+    ],
+    "taxonomy": {
+      "accepted": "Monoplex pilearis",
+      "accepted_author": "(Linnaeus, 1758)",
+      "accepted_request": "56b5e82966c044d4",
+      "accepted_status": "accepted",
+      "aphia_id": 476533,
+      "basis": "author-matched alternative combination; subject to historical concept review",
+      "matching_author": "Linnaeus, 1758",
+      "matching_id": 215658,
+      "matching_name": "Murex pileare",
+      "matching_status": "unaccepted",
+      "queries": [
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Aquillus (Lampusia) pilearis",
+          "request": "e1359af79a415ce8",
+          "returned": 0
+        },
+        {
+          "matching_ids": [
+            215658
+          ],
+          "other_names": [],
+          "query_name": "Murex pileare",
+          "request": "7afc0ff073075cb6",
+          "returned": 1
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=476533"
+    }
+  },
+  {
+    "author": "Linnaeus",
+    "forms": [
+      "Aquillus (Lampusia) rubecula",
+      "Murex rubecula"
+    ],
+    "heading_line": 2,
+    "id": "rubecula",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 1,
+          "locality": 1
+        },
+        "request": "e074e2ba8ae31b50",
+        "returned": 1,
+        "returned_record_context": [
+          {
+            "country": "Mauritius",
+            "datasetName": null,
+            "eventDate": "1900",
+            "eventID": "urn:australianmuseum.net.au:Events:10008146",
+            "fieldNumber": null,
+            "id": null,
+            "key": 1101026564,
+            "locality": null,
+            "occurrenceID": "45b01e39-1744-435b-b642-6d8d7bee400f",
+            "recordedBy": null
+          }
+        ],
+        "siboga_text_records": [],
+        "total": 1,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Septa rubecula",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "a4ad1803bc4b3549",
+        "status": "ACCEPTED",
+        "usageKey": 6488784
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "63c0af6c4cd2c523",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "1b0c29204d18a4bd",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 12,
+          "eventID": 28,
+          "fieldNumber": 25,
+          "locality": 4
+        },
+        "request": "7fd2d6cec2081d39",
+        "returned": 28,
+        "siboga_text_records": [],
+        "total": 28,
+        "truncated": false
+      }
+    },
+    "page": 111,
+    "source_caution": "Young specimen.",
+    "source_image_sha256": "a1f68d9b6f9aab4c945b961b01e95c969c3b7443a4e1c5ea3f20a46676d9f2fd",
+    "source_page": "https://www.biodiversitylibrary.org/page/2205140",
+    "stations": [
+      "315"
+    ],
+    "taxonomy": {
+      "accepted": "Septa rubecula",
+      "accepted_author": "(Linnaeus, 1758)",
+      "accepted_request": "e501554ce6aedb65",
+      "accepted_status": "accepted",
+      "aphia_id": 476590,
+      "basis": "author-matched alternative combination; subject to historical concept review",
+      "matching_author": "Linnaeus, 1758",
+      "matching_id": 476781,
+      "matching_name": "Murex rubecula",
+      "matching_status": "unaccepted",
+      "queries": [
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Aquillus (Lampusia) rubecula",
+          "request": "dd1c9f7a4961791e",
+          "returned": 0
+        },
+        {
+          "matching_ids": [
+            476781
+          ],
+          "other_names": [],
+          "query_name": "Murex rubecula",
+          "request": "c66bc487856ddfd6",
+          "returned": 1
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=476590"
+    }
+  },
+  {
+    "author": "Nevill",
+    "forms": [
+      "Aquillus (Turritriton) labrosus var. orientalis",
+      "Triton labrosus orientalis",
+      "Triton orientalis",
+      "Turritriton orientalis"
+    ],
+    "heading_line": 23,
+    "id": "orientalis",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 1,
+          "locality": 1
+        },
+        "request": "4d195d5fdc471b41",
+        "returned": 1,
+        "returned_record_context": [
+          {
+            "country": "New Caledonia",
+            "datasetName": null,
+            "eventDate": "1900",
+            "eventID": "urn:australianmuseum.net.au:Events:10040112",
+            "fieldNumber": null,
+            "id": null,
+            "key": 1253396458,
+            "locality": null,
+            "occurrenceID": "5a0debfa-cb2b-4ade-aa14-d613117667eb",
+            "recordedBy": "J. Brazier"
+          }
+        ],
+        "siboga_text_records": [],
+        "total": 1,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Turritriton labiosus",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "81f94c6882d75d7a",
+        "status": "ACCEPTED",
+        "usageKey": 6488636
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "df2dfec3e7812646",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "215b2a99f92f6a30",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 6,
+          "eventID": 21,
+          "fieldNumber": 20,
+          "locality": 11
+        },
+        "request": "a01d9b890c32bf66",
+        "returned": 21,
+        "siboga_text_records": [],
+        "total": 21,
+        "truncated": false
+      }
+    },
+    "page": 111,
+    "source_caution": "The printed variety is retained. Schepman says some specimens are too young to assign with certainty.",
+    "source_image_sha256": "a1f68d9b6f9aab4c945b961b01e95c969c3b7443a4e1c5ea3f20a46676d9f2fd",
+    "source_page": "https://www.biodiversitylibrary.org/page/2205140",
+    "stations": [
+      "40",
+      "47",
+      "60",
+      "240",
+      "285"
+    ],
+    "taxonomy": {
+      "accepted": "Turritriton labiosus",
+      "accepted_author": "(W. Wood, 1828)",
+      "accepted_request": "c500d2daf35cedf6",
+      "accepted_status": "accepted",
+      "aphia_id": 476594,
+      "basis": "author-matched alternative combination; subject to historical concept review",
+      "matching_author": "G. Nevill & H. Nevill, 1874",
+      "matching_id": 750623,
+      "matching_name": "Triton orientalis",
+      "matching_status": "unaccepted",
+      "queries": [
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Aquillus (Turritriton) labrosus var. orientalis",
+          "request": "314007ff670fbf34",
+          "returned": 0
+        },
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Triton labrosus orientalis",
+          "request": "4dec7fea3d91f9a4",
+          "returned": 0
+        },
+        {
+          "matching_ids": [
+            750623
+          ],
+          "other_names": [],
+          "query_name": "Triton orientalis",
+          "request": "02a674907f2d28e4",
+          "returned": 1
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=476594"
+    }
+  },
+  {
+    "author": "Reeve",
+    "forms": [
+      "Aquillus (Turritriton) elongatus",
+      "Triton elongatus"
+    ],
+    "heading_line": 5,
+    "id": "elongatus",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "faab4fbd4097da7a",
+        "returned": 0,
+        "returned_record_context": [],
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Monoplex vespaceus",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "a29fa342dd21ea3b",
+        "status": "ACCEPTED",
+        "usageKey": 6488605
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "f6523dbaafa2511c",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "5318eeb240fbc8d9",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 3,
+          "eventID": 9,
+          "fieldNumber": 9,
+          "locality": 1
+        },
+        "request": "1faf95e3e2a98753",
+        "returned": 9,
+        "siboga_text_records": [],
+        "total": 9,
+        "truncated": false
+      }
+    },
+    "page": 112,
+    "source_caution": "Heading says var.; discussion expresses uncertainty. Printed 43 at Pulu Sarassa (36 m) independently confirmed by Tydeman register p4.",
+    "source_image_sha256": "f92f9d1e0ad53e007ac52a8e1fd9974f1c58f639e005e8b24fe23cc508f35197",
+    "source_page": "https://www.biodiversitylibrary.org/page/2205139",
+    "stations": [
+      "37",
+      "43",
+      "193"
+    ],
+    "taxonomy": {
+      "accepted": "Monoplex vespaceus",
+      "accepted_author": "(Lamarck, 1822)",
+      "accepted_request": "28e380189cac3d37",
+      "accepted_status": "accepted",
+      "aphia_id": 476538,
+      "basis": "author-matched alternative combination; subject to historical concept review",
+      "matching_author": "Reeve, 1844",
+      "matching_id": 476907,
+      "matching_name": "Triton elongatus",
+      "matching_status": "unaccepted",
+      "queries": [
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Aquillus (Turritriton) elongatus",
+          "request": "f8504967c49b3f88",
+          "returned": 0
+        },
+        {
+          "matching_ids": [
+            476907
+          ],
+          "other_names": [],
+          "query_name": "Triton elongatus",
+          "request": "d58156cd5056ad47",
+          "returned": 1
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=476538"
+    }
+  },
+  {
+    "author": "Reeve",
+    "forms": [
+      "Aquillus (Turritriton) gracilis",
+      "Triton gracilis"
+    ],
+    "heading_line": 16,
+    "id": "gracilis",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "0af07bebf6fbc1ff",
+        "returned": 0,
+        "returned_record_context": [],
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Reticutriton pfeifferianus",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "a30156c94ae28d54",
+        "status": "ACCEPTED",
+        "usageKey": 6488776
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "b28cb970fc0aa65a",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "2d9a54ece1ae5935",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 22,
+          "eventID": 53,
+          "fieldNumber": 53,
+          "locality": 32
+        },
+        "request": "e13a92a928853c69",
+        "returned": 54,
+        "siboga_text_records": [],
+        "total": 54,
+        "truncated": false
+      }
+    },
+    "page": 112,
+    "source_caution": "",
+    "source_image_sha256": "f92f9d1e0ad53e007ac52a8e1fd9974f1c58f639e005e8b24fe23cc508f35197",
+    "source_page": "https://www.biodiversitylibrary.org/page/2205139",
+    "stations": [
+      "164",
+      "273"
+    ],
+    "taxonomy": {
+      "accepted": "Reticutriton pfeifferianus",
+      "accepted_author": "(Reeve, 1844)",
+      "accepted_request": "55f9474fcf3d73f5",
+      "accepted_status": "accepted",
+      "aphia_id": 476566,
+      "basis": "author-matched alternative combination; subject to historical concept review",
+      "matching_author": "Reeve, 1844",
+      "matching_id": 476918,
+      "matching_name": "Triton gracilis",
+      "matching_status": "unaccepted",
+      "queries": [
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Aquillus (Turritriton) gracilis",
+          "request": "764b04245a97d044",
+          "returned": 0
+        },
+        {
+          "matching_ids": [
+            476918
+          ],
+          "other_names": [],
+          "query_name": "Triton gracilis",
+          "request": "83528a9c8f23cd4d",
+          "returned": 1
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=476566"
+    }
+  },
+  {
+    "author": "Reeve",
+    "forms": [
+      "Aquillus (Gutturnium) grandimaculatus",
+      "Triton grandimaculatus",
+      "Lotoria grandimaculata"
+    ],
+    "heading_line": 2,
+    "id": "grandimaculatus",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "bae5166cb35c6756",
+        "returned": 0,
+        "returned_record_context": [],
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Lotoria grandimaculata",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "f98ac755e4d4e3f3",
+        "status": "ACCEPTED",
+        "usageKey": 6488656
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "8688fa32c23d15d1",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "706811310ec067dd",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 1,
+          "eventID": 1,
+          "fieldNumber": 1,
+          "locality": 0
+        },
+        "request": "b09eaedb6046cfe2",
+        "returned": 1,
+        "siboga_text_records": [],
+        "total": 1,
+        "truncated": false
+      }
+    },
+    "page": 113,
+    "source_caution": "Reported specimen is young; historical authors differ on conspecificity.",
+    "source_image_sha256": "1c3a6cf548235d5d8ee6294953dae66e519f622facced329d3bfa75862fde0dd",
+    "source_page": "https://www.biodiversitylibrary.org/page/2204983",
+    "stations": [
+      "99"
+    ],
+    "taxonomy": {
+      "accepted": "Lotoria grandimaculata",
+      "accepted_author": "(Reeve, 1844)",
+      "accepted_request": "a11b0a869157cf96",
+      "accepted_status": "accepted",
+      "aphia_id": 476510,
+      "basis": "author-matched alternative combination; subject to historical concept review",
+      "matching_author": "Reeve, 1844",
+      "matching_id": 476919,
+      "matching_name": "Triton grandimaculatus",
+      "matching_status": "unaccepted",
+      "queries": [
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Aquillus (Gutturnium) grandimaculatus",
+          "request": "66e89eb1c19fa520",
+          "returned": 0
+        },
+        {
+          "matching_ids": [
+            476919
+          ],
+          "other_names": [],
+          "query_name": "Triton grandimaculatus",
+          "request": "0e8c96fe250495b9",
+          "returned": 1
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=476510"
+    }
+  },
+  {
+    "author": "Lamarck",
+    "forms": [
+      "Aquillus (Gutturnium) tuberosus",
+      "Triton tuberosus",
+      "Eutritonium tuberosum"
+    ],
+    "heading_line": 12,
+    "id": "tuberosus",
+    "occurrence": {
+      "gbif_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 1,
+          "locality": 1
+        },
+        "request": "d591f5e3a44c359f",
+        "returned": 1,
+        "returned_record_context": [
+          {
+            "country": "New Caledonia",
+            "datasetName": null,
+            "eventDate": "1900",
+            "eventID": "urn:australianmuseum.net.au:Events:10040112",
+            "fieldNumber": null,
+            "id": null,
+            "key": 1100899651,
+            "locality": null,
+            "occurrenceID": "9cf2adbb-e112-4c86-b138-03ecca6321c5",
+            "recordedBy": "J. Brazier"
+          }
+        ],
+        "siboga_text_records": [],
+        "total": 1,
+        "truncated": false
+      },
+      "gbif_match": {
+        "acceptedUsageKey": null,
+        "canonicalName": "Gutturnium muricinum",
+        "confidence": 100,
+        "matchType": "EXACT",
+        "request": "1e115a71eb738e5b",
+        "status": "ACCEPTED",
+        "usageKey": 4360572
+      },
+      "gbif_siboga_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "887a9dc6ab557956",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_global_expedition_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 0,
+          "eventID": 0,
+          "fieldNumber": 0,
+          "locality": 0
+        },
+        "request": "bf0774db16efafd2",
+        "returned": 0,
+        "siboga_text_records": [],
+        "total": 0,
+        "truncated": false
+      },
+      "obis_regional_all_years": {
+        "null_or_blank_in_returned": {
+          "decimalLatitude": 0,
+          "decimalLongitude": 0,
+          "eventDate": 7,
+          "eventID": 62,
+          "fieldNumber": 60,
+          "locality": 8
+        },
+        "request": "4cdad323c8e22d1d",
+        "returned": 62,
+        "siboga_text_records": [],
+        "total": 62,
+        "truncated": false
+      }
+    },
+    "page": 113,
+    "source_caution": "Locality Island Enkhuizen near Batavia; no numbered station given.",
+    "source_image_sha256": "1c3a6cf548235d5d8ee6294953dae66e519f622facced329d3bfa75862fde0dd",
+    "source_page": "https://www.biodiversitylibrary.org/page/2204983",
+    "stations": [],
+    "taxonomy": {
+      "accepted": "Gutturnium muricinum",
+      "accepted_author": "(Röding, 1798)",
+      "accepted_request": "d1769bfd9d0811eb",
+      "accepted_status": "accepted",
+      "aphia_id": 220950,
+      "basis": "author-matched alternative combination; subject to historical concept review",
+      "matching_author": "(Lamarck, 1822)",
+      "matching_id": 215105,
+      "matching_name": "Eutritonium tuberosum",
+      "matching_status": "unaccepted",
+      "queries": [
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Aquillus (Gutturnium) tuberosus",
+          "request": "49c1c27a28a80059",
+          "returned": 0
+        },
+        {
+          "matching_ids": [],
+          "other_names": [],
+          "query_name": "Triton tuberosus",
+          "request": "89b944636a973108",
+          "returned": 0
+        },
+        {
+          "matching_ids": [
+            215105
+          ],
+          "other_names": [],
+          "query_name": "Eutritonium tuberosum",
+          "request": "cd4c09bd2826d084",
+          "returned": 1
+        }
+      ],
+      "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=220950"
+    }
+  },
+  {
+    "author": "",
+    "forms": [],
+    "heading_line": 36,
+    "id": "aquillus-sp",
+    "page": 112,
+    "source_caution": "Prose-only unidentified juveniles. No species-level query is possible.",
+    "source_image_sha256": "f92f9d1e0ad53e007ac52a8e1fd9974f1c58f639e005e8b24fe23cc508f35197",
+    "source_page": "https://www.biodiversitylibrary.org/page/2205139",
+    "stations": [
+      "37",
+      "240",
+      "315",
+      "225"
+    ],
+    "taxonomy": {
+      "basis": "no author-verified species match",
+      "queries": []
+    }
+  }
+]

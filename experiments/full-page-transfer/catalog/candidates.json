@@ -1,0 +1,229 @@
+[
+  {
+    "id": "vespaceus",
+    "page": 111,
+    "heading_line": 35,
+    "stations": [
+      "37"
+    ],
+    "forms": [
+      "Aquillus (Turritriton) vespaceus",
+      "Triton vespaceum",
+      "Triton vespaceus",
+      "Monoplex vespaceus"
+    ],
+    "author": "Lamarck",
+    "source_caution": "Question mark in heading. Following page calls identification rather uncertain."
+  },
+  {
+    "id": "pfeifferianus",
+    "page": 112,
+    "heading_line": 24,
+    "stations": [
+      "33",
+      "47",
+      "49A",
+      "71",
+      "77",
+      "164"
+    ],
+    "forms": [
+      "Aquillus (Turritriton) pfeifferianus",
+      "Triton pfeifferianus",
+      "Reticutriton pfeifferianus"
+    ],
+    "author": "Reeve",
+    "source_caution": "A damaged superscript follows 49; station 49A is admitted by the independent conjunction of Sapeh Strait, the printed 69 m and Tydeman register p4. Independent image read joins the split OCR line to 77. Most specimens young."
+  },
+  {
+    "id": "gemmatus",
+    "page": 111,
+    "heading_line": 11,
+    "stations": [
+      "47",
+      "240",
+      "304"
+    ],
+    "forms": [
+      "Aquillus (Lampusia) gemmatus",
+      "Triton gemmatus"
+    ],
+    "author": "Reeve",
+    "source_caution": "The author describes the colour of the Banda specimen separately."
+  },
+  {
+    "id": "anus",
+    "page": 113,
+    "heading_line": 22,
+    "stations": [
+      "234",
+      "240"
+    ],
+    "forms": [
+      "Distortrix anus",
+      "Murex anus",
+      "Distorsio anus"
+    ],
+    "author": "Linnaeus",
+    "source_caution": ""
+  },
+  {
+    "id": "cancellinus",
+    "page": 113,
+    "heading_line": 31,
+    "stations": [
+      "1",
+      "2",
+      "47"
+    ],
+    "forms": [
+      "Distortrix cancellinus",
+      "Triton cancellinus",
+      "Murex cancellinus",
+      "Distorsio cancellina"
+    ],
+    "author": "Roissy",
+    "source_caution": "The exact WoRMS combination has a different author, Lamarck, from the printed Roissy. Evaluate its accepted name as a competing search hypothesis, withhold author-level equivalence.",
+    "disputed_form": "Distortrix cancellinus"
+  },
+  {
+    "id": "aquatilis",
+    "page": 110,
+    "heading_line": 23,
+    "stations": [
+      "225"
+    ],
+    "forms": [
+      "Aquillus (Lampusia) aquatilis",
+      "Triton aquatilis"
+    ],
+    "author": "Reeve",
+    "source_caution": "The author distinguishes the preceding pilearis against other authorities."
+  },
+  {
+    "id": "pilearis",
+    "page": 110,
+    "heading_line": 4,
+    "stations": [
+      "4",
+      "47",
+      "53",
+      "172"
+    ],
+    "forms": [
+      "Aquillus (Lampusia) pilearis",
+      "Murex pileare",
+      "Murex pilearis",
+      "Monoplex pilearis"
+    ],
+    "author": "Linnaeus",
+    "source_caution": "Discussion on page 110 documents disagreement over the historical species concept."
+  },
+  {
+    "id": "rubecula",
+    "page": 111,
+    "heading_line": 2,
+    "stations": [
+      "315"
+    ],
+    "forms": [
+      "Aquillus (Lampusia) rubecula",
+      "Murex rubecula"
+    ],
+    "author": "Linnaeus",
+    "source_caution": "Young specimen."
+  },
+  {
+    "id": "orientalis",
+    "page": 111,
+    "heading_line": 23,
+    "stations": [
+      "40",
+      "47",
+      "60",
+      "240",
+      "285"
+    ],
+    "forms": [
+      "Aquillus (Turritriton) labrosus var. orientalis",
+      "Triton labrosus orientalis",
+      "Triton orientalis",
+      "Turritriton orientalis"
+    ],
+    "author": "Nevill",
+    "source_caution": "The printed variety is retained. Schepman says some specimens are too young to assign with certainty."
+  },
+  {
+    "id": "elongatus",
+    "page": 112,
+    "heading_line": 5,
+    "stations": [
+      "37",
+      "43",
+      "193"
+    ],
+    "forms": [
+      "Aquillus (Turritriton) elongatus",
+      "Triton elongatus"
+    ],
+    "author": "Reeve",
+    "source_caution": "Heading says var.; discussion expresses uncertainty. Printed 43 at Pulu Sarassa (36 m) independently confirmed by Tydeman register p4."
+  },
+  {
+    "id": "gracilis",
+    "page": 112,
+    "heading_line": 16,
+    "stations": [
+      "164",
+      "273"
+    ],
+    "forms": [
+      "Aquillus (Turritriton) gracilis",
+      "Triton gracilis"
+    ],
+    "author": "Reeve",
+    "source_caution": ""
+  },
+  {
+    "id": "grandimaculatus",
+    "page": 113,
+    "heading_line": 2,
+    "stations": [
+      "99"
+    ],
+    "forms": [
+      "Aquillus (Gutturnium) grandimaculatus",
+      "Triton grandimaculatus",
+      "Lotoria grandimaculata"
+    ],
+    "author": "Reeve",
+    "source_caution": "Reported specimen is young; historical authors differ on conspecificity."
+  },
+  {
+    "id": "tuberosus",
+    "page": 113,
+    "heading_line": 12,
+    "stations": [],
+    "forms": [
+      "Aquillus (Gutturnium) tuberosus",
+      "Triton tuberosus",
+      "Eutritonium tuberosum"
+    ],
+    "author": "Lamarck",
+    "source_caution": "Locality Island Enkhuizen near Batavia; no numbered station given."
+  },
+  {
+    "id": "aquillus-sp",
+    "page": 112,
+    "heading_line": 36,
+    "stations": [
+      "37",
+      "240",
+      "315",
+      "225"
+    ],
+    "forms": [],
+    "author": "",
+    "source_caution": "Prose-only unidentified juveniles. No species-level query is possible."
+  }
+]

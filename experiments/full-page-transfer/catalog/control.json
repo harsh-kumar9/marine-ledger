@@ -1,0 +1,292 @@
+{
+  "accepted": "Cephalodiscus gracilis",
+  "aphia_id": 266750,
+  "occurrence": {
+    "gbif_global_expedition_years": {
+      "null_or_blank_in_returned": {
+        "decimalLatitude": 0,
+        "decimalLongitude": 0,
+        "eventDate": 0,
+        "eventID": 0,
+        "fieldNumber": 0,
+        "locality": 0
+      },
+      "request": "99230a0d93df2135",
+      "returned": 1,
+      "returned_record_context": [
+        {
+          "country": "Indonesia",
+          "datasetName": "British Antarctic (Terra Nova) Expedition Zoology",
+          "eventDate": "1899-06-21",
+          "eventID": "913",
+          "fieldNumber": "Siboga Stn. 89",
+          "id": null,
+          "key": 2442739280,
+          "locality": "east coast of Borneo",
+          "occurrenceID": "urn:NIWA:TerraNovaExp:1944",
+          "recordedBy": null
+        }
+      ],
+      "siboga_text_records": [
+        {
+          "explicit_stations": [
+            "89"
+          ],
+          "fields": {
+            "catalogNumber": "Siboga Stn. 89 Cephalodiscus gracilis",
+            "decimalLatitude": -0.5767,
+            "decimalLongitude": 119.1417,
+            "eventDate": "1899-06-21",
+            "eventID": "913",
+            "fieldNumber": "Siboga Stn. 89",
+            "locality": "east coast of Borneo",
+            "occurrenceID": "urn:NIWA:TerraNovaExp:1944",
+            "occurrenceRemarks": "on coral-reef between tide-marks",
+            "scientificName": "Cephalodiscus gracilis Harmer, 1905"
+          },
+          "target_station_overlap": [
+            "89"
+          ],
+          "url": "https://www.gbif.org/occurrence/2442739280"
+        }
+      ],
+      "total": 1,
+      "truncated": false
+    },
+    "gbif_match": {
+      "acceptedUsageKey": null,
+      "canonicalName": "Cephalodiscus gracilis",
+      "confidence": 100,
+      "matchType": "EXACT",
+      "request": "4dbef1f5157d136f",
+      "status": "ACCEPTED",
+      "usageKey": 2254445
+    },
+    "gbif_siboga_all_years": {
+      "null_or_blank_in_returned": {
+        "decimalLatitude": 1,
+        "decimalLongitude": 1,
+        "eventDate": 1,
+        "eventID": 1,
+        "fieldNumber": 1,
+        "locality": 1
+      },
+      "request": "102742243e882033",
+      "returned": 2,
+      "siboga_text_records": [
+        {
+          "explicit_stations": [
+            "89"
+          ],
+          "fields": {
+            "catalogNumber": "Siboga Stn. 89 Cephalodiscus gracilis",
+            "decimalLatitude": -0.5767,
+            "decimalLongitude": 119.1417,
+            "eventDate": "1899-06-21",
+            "eventID": "913",
+            "fieldNumber": "Siboga Stn. 89",
+            "locality": "east coast of Borneo",
+            "occurrenceID": "urn:NIWA:TerraNovaExp:1944",
+            "occurrenceRemarks": "on coral-reef between tide-marks",
+            "scientificName": "Cephalodiscus gracilis Harmer, 1905"
+          },
+          "target_station_overlap": [
+            "89"
+          ],
+          "url": "https://www.gbif.org/occurrence/2442739280"
+        },
+        {
+          "explicit_stations": [],
+          "fields": {
+            "catalogNumber": "ZMA.COEL.4855",
+            "occurrenceID": "https://data.biodiversitydata.nl/naturalis/specimen/ZMA.COEL.4855",
+            "recordedBy": "Siboga Expedition",
+            "scientificName": "Cephalodiscus gracilis Harmer, 1905",
+            "verbatimEventDate": "21-06-1899"
+          },
+          "target_station_overlap": [],
+          "url": "https://www.gbif.org/occurrence/2433850821"
+        }
+      ],
+      "total": 2,
+      "truncated": false
+    },
+    "obis_global_expedition_years": {
+      "null_or_blank_in_returned": {
+        "decimalLatitude": 0,
+        "decimalLongitude": 0,
+        "eventDate": 0,
+        "eventID": 0,
+        "fieldNumber": 0,
+        "locality": 0
+      },
+      "request": "5d6a8007679d07cc",
+      "returned": 1,
+      "siboga_text_records": [
+        {
+          "explicit_stations": [
+            "89"
+          ],
+          "fields": {
+            "catalogNumber": "Siboga Stn. 89 Cephalodiscus gracilis",
+            "decimalLatitude": -0.5767,
+            "decimalLongitude": 119.1417,
+            "eventDate": "1899-06-21",
+            "eventID": "913",
+            "fieldNumber": "Siboga Stn. 89",
+            "locality": "east coast of Borneo",
+            "occurrenceID": "urn:NIWA:TerraNovaExp:1944",
+            "occurrenceRemarks": "on coral-reef between tide-marks",
+            "scientificName": "Cephalodiscus gracilis"
+          },
+          "target_station_overlap": [
+            "89"
+          ],
+          "url": "https://obis.org/occurrence/d40251cd-439e-40c5-a073-d4726cad6d66"
+        }
+      ],
+      "total": 1,
+      "truncated": false
+    },
+    "obis_regional_all_years": {
+      "null_or_blank_in_returned": {
+        "decimalLatitude": 0,
+        "decimalLongitude": 0,
+        "eventDate": 0,
+        "eventID": 0,
+        "fieldNumber": 0,
+        "locality": 0
+      },
+      "request": "5fa37051eb86af2c",
+      "returned": 1,
+      "siboga_text_records": [
+        {
+          "explicit_stations": [
+            "89"
+          ],
+          "fields": {
+            "catalogNumber": "Siboga Stn. 89 Cephalodiscus gracilis",
+            "decimalLatitude": -0.5767,
+            "decimalLongitude": 119.1417,
+            "eventDate": "1899-06-21",
+            "eventID": "913",
+            "fieldNumber": "Siboga Stn. 89",
+            "locality": "east coast of Borneo",
+            "occurrenceID": "urn:NIWA:TerraNovaExp:1944",
+            "occurrenceRemarks": "on coral-reef between tide-marks",
+            "scientificName": "Cephalodiscus gracilis"
+          },
+          "target_station_overlap": [
+            "89"
+          ],
+          "url": "https://obis.org/occurrence/d40251cd-439e-40c5-a073-d4726cad6d66"
+        }
+      ],
+      "total": 1,
+      "truncated": false
+    }
+  },
+  "published_gbif_voucher": {
+    "catalogNumber": "Siboga Stn. 89 Cephalodiscus gracilis",
+    "decimalLatitude": -0.5767,
+    "decimalLongitude": 119.1417,
+    "eventDate": "1899-06-21",
+    "eventID": "913",
+    "eventRemarks": null,
+    "fieldNumber": "Siboga Stn. 89",
+    "locality": "east coast of Borneo",
+    "locationID": null,
+    "occurrenceID": "urn:NIWA:TerraNovaExp:1944",
+    "occurrenceRemarks": "on coral-reef between tide-marks",
+    "recordedBy": null,
+    "scientificName": "Cephalodiscus gracilis Harmer, 1905",
+    "verbatimEventDate": null,
+    "verbatimLocality": null
+  },
+  "register": {
+    "author": "G. F. Tydeman, station list revised by the ship’s commander, in Max Weber’s 1902 Introduction et description de l’expédition",
+    "comparisons": [
+      {
+        "dates": "1899-03-30/1899-03-31",
+        "depth": "27 metres and less",
+        "interpretation": "The site name and depth match the two doubtful historical shells. Coordinates are blank in the printed station register.",
+        "latitude": null,
+        "locality": "Sailus ketjil, Paternoster islands; close to reef",
+        "longitude": null,
+        "pdf_page": 164,
+        "printed_page": 4,
+        "station": "37"
+      },
+      {
+        "dates": "1899-04-04/1899-04-05",
+        "depth": "up to 36 metres",
+        "interpretation": "The paired locality and depth distinguish 43 from the OCR reading 3 and from suffixed 43-series stations.",
+        "latitude": null,
+        "locality": "Pulu Sarassa, Postillon-islands",
+        "longitude": null,
+        "pdf_page": 164,
+        "printed_page": 4,
+        "station": "43"
+      },
+      {
+        "dates": "1899-04-08/1899-04-12",
+        "depth": "55 metres",
+        "interpretation": "Adjacent entries 47a (320 m) and 47b (296 m) are separate stations.",
+        "latitude": null,
+        "locality": "Bay of Bima, near south fort",
+        "longitude": null,
+        "pdf_page": 164,
+        "printed_page": 4,
+        "station": "47"
+      },
+      {
+        "dates": "1899-04-14",
+        "depth": "369 metres",
+        "interpretation": "Date and substrate are shared with the suffixed row. Depth and position differ.",
+        "latitude": "8°20.5′ S",
+        "locality": null,
+        "longitude": "119°04.5′ E",
+        "pdf_page": 164,
+        "printed_page": 4,
+        "station": "49"
+      },
+      {
+        "dates": "1899-04-14",
+        "depth": "69 metres",
+        "interpretation": "The register resolves the indistinct glyph on Schepman p112, line 30 through the matching 69 m and locality.",
+        "latitude": "8°23.5′ S",
+        "locality": "Sapeh Strait",
+        "longitude": "119°04.6′ E",
+        "pdf_page": 164,
+        "printed_page": 4,
+        "station": "49A"
+      },
+      {
+        "dates": "1899-06-20",
+        "depth": "1301 metres",
+        "interpretation": "Coordinates agree in magnitude with the modern station 89 record, while the latitude hemisphere and the printed day differ.",
+        "latitude": "0°34.6′ N",
+        "longitude": "119°08.5′ E",
+        "pdf_page": 166,
+        "printed_page": 6,
+        "station": "88"
+      },
+      {
+        "dates": "1899-06-21",
+        "depth": "11 metres",
+        "interpretation": "Independently corroborates day and station number of the Cephalodiscus control. The position printed on row 88 cannot establish coordinates for row 89.",
+        "latitude": null,
+        "locality": "Pulu Kaniungan ketjil",
+        "longitude": null,
+        "pdf_page": 166,
+        "printed_page": 6,
+        "station": "89"
+      }
+    ],
+    "read_method": "Independent visual transcription of the printed register. Fields listed below were checked on the scan in addition to the later gastropod account.",
+    "sha256_pdf": "aa7bed19988edf6ffd410961abd723ee7c9000fa23a16b4a6ca922ab1e360030",
+    "url": "https://archimer.ifremer.fr/doc/00000/4745/4237.pdf"
+  },
+  "request": "5665ae4c31133690",
+  "shared_occurrence_id": "urn:NIWA:TerraNovaExp:1944"
+}

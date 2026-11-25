@@ -1,0 +1,64 @@
+{
+  "RMNH.MOL.193497": {
+    "case": "gracilis",
+    "station": "164",
+    "line": 20,
+    "page": 112,
+    "print_count": 4,
+    "reading": "Recto: Cymatium (Gutturnium) vespaceum var. gracilis, Siboga exp., Halmaheira zee, St 164. Verso: Aquillus … gracilis Rve, Stat 164, Halmahera Zee. The primary voucher prefers Monoplex vespaceus. The WoRMS author-verified name bridge for Triton gracilis Reeve leads to Reticutriton pfeifferianus. These are rival determinations of material; this voucher records one shell, the printed account lists four.",
+    "admission": "historical station–taxon association supported; current biological identification under review",
+    "source_image_sha256": {
+      "https://medialib.naturalis.nl/file/id/RMNH.MOL.193497_1/format/large": "4de76b45e426a2950105e74837cbae6fb9c7866be24c7e77ae3d39d24b2eb81e",
+      "https://medialib.naturalis.nl/file/id/RMNH.MOL.193497/format/large": "98d59a5bc3657dccbe918d9fa505835d549e53067817e487166ee50162175f18"
+    }
+  },
+  "RMNH.MOL.193059": {
+    "case": "orientalis",
+    "station": "60",
+    "line": 29,
+    "page": 111,
+    "print_count": 1,
+    "reading": "Recto: Cymatium (Turritriton) labiosum var. orientalis, Siboga exp., Haingsisi, Samau eil., St 60. Verso also has var. orientalis, Haingsisi, 36 M., and St 60. Source account cites one specimen; the museum lists one. Modern label Turritriton labiosus. The historical variety and locality survive in labels despite incomplete core metadata.",
+    "admission": "station-level association with counted voucher supported",
+    "source_image_sha256": {
+      "https://medialib.naturalis.nl/file/id/RMNH.MOL.193059/format/large": "8794f3a8def6113aa58eb93bef43f96bcba52fbf1bd808831343173f1d79e52e",
+      "https://medialib.naturalis.nl/file/id/RMNH.MOL.193059_1/format/large": "3b7518c6a74af6c4cccc5900f1b0b821ab65b00cd400c57b54528fa73570841f"
+    }
+  },
+  "ZMA.MOLL.31943": {
+    "case": "cancellinus",
+    "station": "1",
+    "line": 37,
+    "page": 113,
+    "print_count": 1,
+    "reading": "An expedition ticket carries station 1, Distortrix cancellinus Roissy and 37 m. Modern label carries Distorsio reticularis, Siboga st.1, Madura Strait, 37 m, 7 III 1899. The physical label associates these two usages for this museum lot although the authorship of Distortrix cancellinus in WoRMS differs.",
+    "admission": "station-level historical-to-modern specimen association supported; global nomenclatural equivalence unresolved",
+    "source_image_sha256": {
+      "https://medialib.naturalis.nl/file/id/ZMA.MOLL.31943/format/large": "529ca5ff743e79d4ab6cc56a7276a129d52649efc7ef0cd1da0916658a439472"
+    }
+  },
+  "ZMA.MOLL.31942": {
+    "case": "cancellinus",
+    "station": "2",
+    "line": 39,
+    "page": 113,
+    "print_count": 1,
+    "reading": "An expedition ticket carries station 2 and Distortrix cancellinus Roissy. Modern label carries Distorsio reticularis, Siboga st.2, Madura Strait, 56 m, 8 III 1899. One shell is pictured. The physical label associates these two usages for this museum lot although the authorship of Distortrix cancellinus in WoRMS differs.",
+    "admission": "station-level historical-to-modern specimen association supported; global nomenclatural equivalence unresolved",
+    "source_image_sha256": {
+      "https://medialib.naturalis.nl/file/id/ZMA.MOLL.31942/format/large": "34a524cf9b0fcc21cc3a8d989626ac89bf3844507b5c984a192acae7b6913680"
+    }
+  },
+  "ZMA.MOLL.31875": {
+    "case": "anus",
+    "station": "234",
+    "line": 29,
+    "page": 113,
+    "print_count": 1,
+    "reading": "Two shells and two Siboga expedition station 234 tickets appear together. The original tickets use Distortrix anus. The current determination is Distorsio anus, with Nalahia Bay, Nusa Laut. The matching print entry says one specimen and the museum lists two. The event and historical identification agree. Lot-level count equivalence is unresolved.",
+    "admission": "station–taxon association supported; printed vs museum count discordant",
+    "source_image_sha256": {
+      "https://medialib.naturalis.nl/file/id/ZMA.MOLL.31875/format/large": "50602625ffbbf93ac490e82b8b915db5e9b9965a7f4b599cdbb603700466a4d1"
+    }
+  }
+}

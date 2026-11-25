@@ -1,0 +1,84 @@
+{
+  "author": "G. F. Tydeman, station list revised by the ship’s commander, in Max Weber’s 1902 Introduction et description de l’expédition",
+  "url": "https://archimer.ifremer.fr/doc/00000/4745/4237.pdf",
+  "read_method": "Independent visual transcription of the printed register. Fields listed below were checked on the scan in addition to the later gastropod account.",
+  "comparisons": [
+    {
+      "station": "37",
+      "pdf_page": 164,
+      "printed_page": 4,
+      "dates": "1899-03-30/1899-03-31",
+      "latitude": null,
+      "longitude": null,
+      "depth": "27 metres and less",
+      "locality": "Sailus ketjil, Paternoster islands; close to reef",
+      "interpretation": "The site name and depth match the two doubtful historical shells. Coordinates are blank in the printed station register."
+    },
+    {
+      "station": "43",
+      "pdf_page": 164,
+      "printed_page": 4,
+      "dates": "1899-04-04/1899-04-05",
+      "latitude": null,
+      "longitude": null,
+      "depth": "up to 36 metres",
+      "locality": "Pulu Sarassa, Postillon-islands",
+      "interpretation": "The paired locality and depth distinguish 43 from the OCR reading 3 and from suffixed 43-series stations."
+    },
+    {
+      "station": "47",
+      "pdf_page": 164,
+      "printed_page": 4,
+      "dates": "1899-04-08/1899-04-12",
+      "depth": "55 metres",
+      "latitude": null,
+      "longitude": null,
+      "locality": "Bay of Bima, near south fort",
+      "interpretation": "Adjacent entries 47a (320 m) and 47b (296 m) are separate stations."
+    },
+    {
+      "station": "49",
+      "pdf_page": 164,
+      "printed_page": 4,
+      "dates": "1899-04-14",
+      "latitude": "8°20.5′ S",
+      "longitude": "119°04.5′ E",
+      "depth": "369 metres",
+      "locality": null,
+      "interpretation": "Date and substrate are shared with the suffixed row. Depth and position differ."
+    },
+    {
+      "station": "49A",
+      "pdf_page": 164,
+      "printed_page": 4,
+      "dates": "1899-04-14",
+      "latitude": "8°23.5′ S",
+      "longitude": "119°04.6′ E",
+      "depth": "69 metres",
+      "locality": "Sapeh Strait",
+      "interpretation": "The register resolves the indistinct glyph on Schepman p112, line 30 through the matching 69 m and locality."
+    },
+    {
+      "station": "88",
+      "pdf_page": 166,
+      "printed_page": 6,
+      "dates": "1899-06-20",
+      "latitude": "0°34.6′ N",
+      "longitude": "119°08.5′ E",
+      "depth": "1301 metres",
+      "interpretation": "Coordinates agree in magnitude with the modern station 89 record, while the latitude hemisphere and the printed day differ."
+    },
+    {
+      "station": "89",
+      "pdf_page": 166,
+      "printed_page": 6,
+      "dates": "1899-06-21",
+      "latitude": null,
+      "longitude": null,
+      "depth": "11 metres",
+      "locality": "Pulu Kaniungan ketjil",
+      "interpretation": "Independently corroborates day and station number of the Cephalodiscus control. The position printed on row 88 cannot establish coordinates for row 89."
+    }
+  ],
+  "sha256_pdf": "aa7bed19988edf6ffd410961abd723ee7c9000fa23a16b4a6ca922ab1e360030"
+}

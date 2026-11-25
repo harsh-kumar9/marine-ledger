@@ -1,0 +1,479 @@
+{
+  "positive_control": {
+    "comparison": "Siboga Exped. stat. 089, 11 m, 21-06-1899 and Pulu Kaniungan Ketjil independently agree with the 1902 printed station register. No decimal coordinates in museum event.",
+    "event": {
+      "country": "Indonesia",
+      "dateText": "21-06-1899",
+      "depth": "11",
+      "depthUnitOfMeasurement": "meter",
+      "gatheringPersons": [
+        {
+          "fullName": "Siboga Expedition"
+        }
+      ],
+      "localityText": "Indonesia, Sulawesi, Pulu Kaniungan Ketjil",
+      "projectTitle": "Siboga Exped. stat. 089",
+      "provinceState": "Celebes"
+    },
+    "request": "8da6debc528da590",
+    "url": "https://data.biodiversitydata.nl/naturalis/specimen/ZMA.COEL.4855"
+  },
+  "queries": {
+    "control_project": {
+      "null_indexed_date": 43,
+      "null_site_coordinates": 45,
+      "request": "ff7d789f37769328",
+      "returned": 45,
+      "total": 45,
+      "truncated": false,
+      "unit_ids": [
+        "ZMA.V.HE.25",
+        "ZMA.VER.210959",
+        "ZMA.VER.210958",
+        "ZMA.VER.210954",
+        "ZMA.VER.210951",
+        "ZMA.VER.210949",
+        "ZMA.VER.210945",
+        "ZMA.VER.210943",
+        "ZMA.VER.210942",
+        "ZMA.VER.210941",
+        "ZMA.VER.210940",
+        "ZMA.VER.210930",
+        "ZMA.VER.210929",
+        "ZMA.VER.210927",
+        "ZMA.VER.210926",
+        "ZMA.VER.210925",
+        "ZMA.VER.210924",
+        "ZMA.VER.210923",
+        "ZMA.VER.210922",
+        "ZMA.VER.210920",
+        "ZMA.VER.210919",
+        "ZMA.VER.210957",
+        "ZMA.VER.210956",
+        "ZMA.VER.210955",
+        "ZMA.VER.210953",
+        "ZMA.VER.210950",
+        "ZMA.VER.210948",
+        "ZMA.VER.210947",
+        "ZMA.VER.210946",
+        "ZMA.VER.210944",
+        "ZMA.VER.210939",
+        "ZMA.VER.210918",
+        "ZMA.VER.210916",
+        "ZMA.VER.210915",
+        "ZMA.VER.210960",
+        "ZMA.VER.210952",
+        "ZMA.VER.210938",
+        "ZMA.VER.210937",
+        "ZMA.VER.210936",
+        "ZMA.VER.210928",
+        "ZMA.VER.210921",
+        "ZMA.VER.210917",
+        "ZMA.VER.210914",
+        "RMNH.VER.22251",
+        "ZMA.COEL.4855"
+      ]
+    },
+    "target_collector": {
+      "null_indexed_date": 0,
+      "null_site_coordinates": 0,
+      "request": "8ce6b8949e16b7e9",
+      "returned": 0,
+      "total": 0,
+      "truncated": false,
+      "unit_ids": []
+    },
+    "target_indexed_date": {
+      "null_indexed_date": 0,
+      "null_site_coordinates": 0,
+      "request": "64b30fbd2e6273c9",
+      "returned": 0,
+      "total": 0,
+      "truncated": false,
+      "unit_ids": []
+    },
+    "target_previous_source": {
+      "null_indexed_date": 3,
+      "null_site_coordinates": 3,
+      "request": "b9903c0bcdf2773e",
+      "returned": 3,
+      "total": 3,
+      "truncated": false,
+      "unit_ids": [
+        "ZMA.MOLL.31875",
+        "ZMA.MOLL.31943",
+        "ZMA.MOLL.31942"
+      ]
+    },
+    "target_project": {
+      "null_indexed_date": 5,
+      "null_site_coordinates": 5,
+      "request": "54aa9770c5b05d3b",
+      "returned": 5,
+      "total": 5,
+      "truncated": false,
+      "unit_ids": [
+        "RMNH.MOL.193497",
+        "RMNH.MOL.193059",
+        "ZMA.MOLL.31943",
+        "ZMA.MOLL.31942",
+        "ZMA.MOLL.31875"
+      ]
+    }
+  },
+  "vouchers": [
+    {
+      "event": {
+        "country": "Indonesia",
+        "depth": "36 m.",
+        "localityText": "Indonesia",
+        "projectTitle": "Siboga exp."
+      },
+      "gbif_provider_id_lookup": {
+        "records": [
+          {
+            "eventDate": null,
+            "eventID": null,
+            "fieldNumber": null,
+            "key": 2444503155,
+            "locality": null,
+            "occurrenceID": "https://data.biodiversitydata.nl/naturalis/specimen/RMNH.MOL.193059",
+            "recordedBy": null,
+            "scientificName": "Turritriton labiosus (W.Wood, 1828)",
+            "url": "https://www.gbif.org/occurrence/2444503155",
+            "verbatimEventDate": null
+          }
+        ],
+        "request": "e898de00bf7a6a31",
+        "total": 1,
+        "truncated": false
+      },
+      "identifications": [
+        {
+          "name": "Turritriton labiosus (Wood, 1828)",
+          "preferred": true
+        },
+        {
+          "name": "Aguillus labiosus Wood v. orientalis Nev.",
+          "preferred": false
+        },
+        {
+          "name": "Cymatium (Turritriton) labiosum (Wood) var orientalis (Nevill)",
+          "preferred": false
+        },
+        {
+          "name": "Cymatium labiosum (Wood, 1828)",
+          "preferred": false
+        }
+      ],
+      "label_read": {
+        "admission": "station-level association with counted voucher supported",
+        "case": "orientalis",
+        "line": 29,
+        "page": 111,
+        "print_count": 1,
+        "reading": "Recto: Cymatium (Turritriton) labiosum var. orientalis, Siboga exp., Haingsisi, Samau eil., St 60. Verso also has var. orientalis, Haingsisi, 36 M., and St 60. Source account cites one specimen; the museum lists one. Modern label Turritriton labiosus. The historical variety and locality survive in labels despite incomplete core metadata.",
+        "source_image_sha256": {
+          "https://medialib.naturalis.nl/file/id/RMNH.MOL.193059/format/large": "8794f3a8def6113aa58eb93bef43f96bcba52fbf1bd808831343173f1d79e52e",
+          "https://medialib.naturalis.nl/file/id/RMNH.MOL.193059_1/format/large": "3b7518c6a74af6c4cccc5900f1b0b821ab65b00cd400c57b54528fa73570841f"
+        },
+        "station": "60"
+      },
+      "museum_count": 1,
+      "photographs": [
+        {
+          "license": "CC0 1.0",
+          "local": "labels/RMNH.MOL.193059.jpg",
+          "owner": "Naturalis Biodiversity Center",
+          "rights_request": "bf8373e4f8269a12",
+          "sha256": "8794f3a8def6113aa58eb93bef43f96bcba52fbf1bd808831343173f1d79e52e",
+          "url": "https://medialib.naturalis.nl/file/id/RMNH.MOL.193059/format/large"
+        },
+        {
+          "license": "CC0 1.0",
+          "local": "labels/RMNH.MOL.193059_1.jpg",
+          "owner": "Naturalis Biodiversity Center",
+          "rights_request": "b60d238942ff0009",
+          "sha256": "3b7518c6a74af6c4cccc5900f1b0b821ab65b00cd400c57b54528fa73570841f",
+          "url": "https://medialib.naturalis.nl/file/id/RMNH.MOL.193059_1/format/large"
+        }
+      ],
+      "request": "d99bdff9dd5f9bf6",
+      "unit": "RMNH.MOL.193059",
+      "url": "https://data.biodiversitydata.nl/naturalis/specimen/RMNH.MOL.193059"
+    },
+    {
+      "event": {
+        "country": "Indonesia",
+        "island": "Halmahera Sea",
+        "projectTitle": "Siboga Expedition"
+      },
+      "gbif_provider_id_lookup": {
+        "records": [
+          {
+            "eventDate": null,
+            "eventID": null,
+            "fieldNumber": null,
+            "key": 2444503569,
+            "locality": null,
+            "occurrenceID": "https://data.biodiversitydata.nl/naturalis/specimen/RMNH.MOL.193497",
+            "recordedBy": null,
+            "scientificName": "Monoplex vespaceus (Lamarck, 1822)",
+            "url": "https://www.gbif.org/occurrence/2444503569",
+            "verbatimEventDate": null
+          }
+        ],
+        "request": "d35faa62ffae6216",
+        "total": 1,
+        "truncated": false
+      },
+      "identifications": [
+        {
+          "name": "Monoplex vespaceus (Lamarck, 1822)",
+          "preferred": true
+        },
+        {
+          "name": "Aquillus (Cym) (Turritriton) gracilis Rve",
+          "preferred": false
+        },
+        {
+          "name": "Cymatium (Gutturnium) vespaceum (Lm.) var. gracilis (Rv.)",
+          "preferred": false
+        }
+      ],
+      "label_read": {
+        "admission": "historical station–taxon association supported; current biological identification under review",
+        "case": "gracilis",
+        "line": 20,
+        "page": 112,
+        "print_count": 4,
+        "reading": "Recto: Cymatium (Gutturnium) vespaceum var. gracilis, Siboga exp., Halmaheira zee, St 164. Verso: Aquillus … gracilis Rve, Stat 164, Halmahera Zee. The primary voucher prefers Monoplex vespaceus. The WoRMS author-verified name bridge for Triton gracilis Reeve leads to Reticutriton pfeifferianus. These are rival determinations of material; this voucher records one shell, the printed account lists four.",
+        "source_image_sha256": {
+          "https://medialib.naturalis.nl/file/id/RMNH.MOL.193497/format/large": "98d59a5bc3657dccbe918d9fa505835d549e53067817e487166ee50162175f18",
+          "https://medialib.naturalis.nl/file/id/RMNH.MOL.193497_1/format/large": "4de76b45e426a2950105e74837cbae6fb9c7866be24c7e77ae3d39d24b2eb81e"
+        },
+        "station": "164"
+      },
+      "museum_count": 1,
+      "photographs": [
+        {
+          "license": "CC0 1.0",
+          "local": "labels/RMNH.MOL.193497_1.jpg",
+          "owner": "Naturalis Biodiversity Center",
+          "rights_request": "afff245aa950f835",
+          "sha256": "4de76b45e426a2950105e74837cbae6fb9c7866be24c7e77ae3d39d24b2eb81e",
+          "url": "https://medialib.naturalis.nl/file/id/RMNH.MOL.193497_1/format/large"
+        },
+        {
+          "license": "CC0 1.0",
+          "local": "labels/RMNH.MOL.193497.jpg",
+          "owner": "Naturalis Biodiversity Center",
+          "rights_request": "4123476020aa8ae1",
+          "sha256": "98d59a5bc3657dccbe918d9fa505835d549e53067817e487166ee50162175f18",
+          "url": "https://medialib.naturalis.nl/file/id/RMNH.MOL.193497/format/large"
+        }
+      ],
+      "request": "838b7f433ef907c2",
+      "unit": "RMNH.MOL.193497",
+      "url": "https://data.biodiversitydata.nl/naturalis/specimen/RMNH.MOL.193497"
+    },
+    {
+      "event": {
+        "country": "Indonesia",
+        "dateText": "--",
+        "gatheringPersons": [
+          {
+            "fullName": "Weber, M.W.C."
+          }
+        ],
+        "locality": "Nalahia Bay, 46m, stones, reef expl.19/20 XI 1899",
+        "localityText": "Indonesia;, Nusa Laut Id., Nalahia Bay, 46m, stones, reef expl.19/20 XI 1899",
+        "projectTitle": "Siboga Expedition st.234",
+        "provinceState": "Nusa Laut Id."
+      },
+      "gbif_provider_id_lookup": {
+        "records": [
+          {
+            "eventDate": null,
+            "eventID": null,
+            "fieldNumber": null,
+            "key": 2444683040,
+            "locality": "Nalahia Bay, 46m, stones, reef expl.19/20 XI 1899",
+            "occurrenceID": "https://data.biodiversitydata.nl/naturalis/specimen/ZMA.MOLL.31875",
+            "recordedBy": "Weber M.W.C.",
+            "scientificName": "Distorsio anus (Linnaeus, 1758)",
+            "url": "https://www.gbif.org/occurrence/2444683040",
+            "verbatimEventDate": "--"
+          }
+        ],
+        "request": "a7fbb625e1820951",
+        "total": 1,
+        "truncated": false
+      },
+      "identifications": [
+        {
+          "name": "Distorsio anus (Linnaeus, 1758)",
+          "preferred": true
+        }
+      ],
+      "label_read": {
+        "admission": "station–taxon association supported; printed vs museum count discordant",
+        "case": "anus",
+        "line": 29,
+        "page": 113,
+        "print_count": 1,
+        "reading": "Two shells and two Siboga expedition station 234 tickets appear together. The original tickets use Distortrix anus. The current determination is Distorsio anus, with Nalahia Bay, Nusa Laut. The matching print entry says one specimen and the museum lists two. The event and historical identification agree. Lot-level count equivalence is unresolved.",
+        "source_image_sha256": {
+          "https://medialib.naturalis.nl/file/id/ZMA.MOLL.31875/format/large": "50602625ffbbf93ac490e82b8b915db5e9b9965a7f4b599cdbb603700466a4d1"
+        },
+        "station": "234"
+      },
+      "museum_count": 2,
+      "photographs": [
+        {
+          "license": "CC0 1.0",
+          "local": "labels/ZMA.MOLL.31875.jpg",
+          "owner": "Naturalis Biodiversity Center",
+          "rights_request": "b4cf73df4a8b2798",
+          "sha256": "50602625ffbbf93ac490e82b8b915db5e9b9965a7f4b599cdbb603700466a4d1",
+          "url": "https://medialib.naturalis.nl/file/id/ZMA.MOLL.31875/format/large"
+        }
+      ],
+      "request": "96638837422522a1",
+      "unit": "ZMA.MOLL.31875",
+      "url": "https://data.biodiversitydata.nl/naturalis/specimen/ZMA.MOLL.31875"
+    },
+    {
+      "event": {
+        "country": "Indonesia",
+        "dateText": "--",
+        "gatheringPersons": [
+          {
+            "fullName": "Weber, M.W.C."
+          }
+        ],
+        "locality": "7°25' S - 113°16' E, trawl, 56m. 8 III 1899 trawl",
+        "localityText": "Indonesia;, Madura Strait, 7°25' S - 113°16' E, trawl, 56m. 8 III 1899 trawl",
+        "projectTitle": "Siboga Expedition st.2",
+        "provinceState": "Madura Strait"
+      },
+      "gbif_provider_id_lookup": {
+        "records": [
+          {
+            "eventDate": null,
+            "eventID": null,
+            "fieldNumber": null,
+            "key": 2444667268,
+            "locality": "7°25' S - 113°16' E, trawl, 56m. 8 III 1899 trawl",
+            "occurrenceID": "https://data.biodiversitydata.nl/naturalis/specimen/ZMA.MOLL.31942",
+            "recordedBy": "Weber M.W.C.",
+            "scientificName": "Distorsio reticularis (Linnaeus, 1758)",
+            "url": "https://www.gbif.org/occurrence/2444667268",
+            "verbatimEventDate": "--"
+          }
+        ],
+        "request": "f6ad2807f0ff1ca2",
+        "total": 1,
+        "truncated": false
+      },
+      "identifications": [
+        {
+          "name": "Distorsio reticularis (Linnaeus, 1758)",
+          "preferred": true
+        }
+      ],
+      "label_read": {
+        "admission": "station-level historical-to-modern specimen association supported; global nomenclatural equivalence unresolved",
+        "case": "cancellinus",
+        "line": 39,
+        "page": 113,
+        "print_count": 1,
+        "reading": "An expedition ticket carries station 2 and Distortrix cancellinus Roissy. Modern label carries Distorsio reticularis, Siboga st.2, Madura Strait, 56 m, 8 III 1899. One shell is pictured. The physical label associates these two usages for this museum lot although the authorship of Distortrix cancellinus in WoRMS differs.",
+        "source_image_sha256": {
+          "https://medialib.naturalis.nl/file/id/ZMA.MOLL.31942/format/large": "34a524cf9b0fcc21cc3a8d989626ac89bf3844507b5c984a192acae7b6913680"
+        },
+        "station": "2"
+      },
+      "museum_count": 1,
+      "photographs": [
+        {
+          "license": "CC0 1.0",
+          "local": "labels/ZMA.MOLL.31942.jpg",
+          "owner": "Naturalis Biodiversity Center",
+          "rights_request": "1edd2fbce8288fb4",
+          "sha256": "34a524cf9b0fcc21cc3a8d989626ac89bf3844507b5c984a192acae7b6913680",
+          "url": "https://medialib.naturalis.nl/file/id/ZMA.MOLL.31942/format/large"
+        }
+      ],
+      "request": "bbc446b15e477179",
+      "unit": "ZMA.MOLL.31942",
+      "url": "https://data.biodiversitydata.nl/naturalis/specimen/ZMA.MOLL.31942"
+    },
+    {
+      "event": {
+        "country": "Indonesia",
+        "dateText": "--",
+        "gatheringPersons": [
+          {
+            "fullName": "Weber, M.W.C."
+          }
+        ],
+        "locality": "7°27'.5 S -113°8'.5 E,trawl, 37m, muddy bottom 7 III 1899 trawl",
+        "localityText": "Indonesia;, Madura Strait, 7°27'.5 S -113°8'.5 E,trawl, 37m, muddy bottom 7 III 1899 trawl",
+        "projectTitle": "Siboga Expedition st.1",
+        "provinceState": "Madura Strait"
+      },
+      "gbif_provider_id_lookup": {
+        "records": [
+          {
+            "eventDate": null,
+            "eventID": null,
+            "fieldNumber": null,
+            "key": 2444683047,
+            "locality": "7°27'.5 S -113°8'.5 E,trawl, 37m, muddy bottom 7 III 1899 trawl",
+            "occurrenceID": "https://data.biodiversitydata.nl/naturalis/specimen/ZMA.MOLL.31943",
+            "recordedBy": "Weber M.W.C.",
+            "scientificName": "Distorsio reticularis (Linnaeus, 1758)",
+            "url": "https://www.gbif.org/occurrence/2444683047",
+            "verbatimEventDate": "--"
+          }
+        ],
+        "request": "caea976bcc2307ac",
+        "total": 1,
+        "truncated": false
+      },
+      "identifications": [
+        {
+          "name": "Distorsio reticularis (Linnaeus, 1758)",
+          "preferred": true
+        }
+      ],
+      "label_read": {
+        "admission": "station-level historical-to-modern specimen association supported; global nomenclatural equivalence unresolved",
+        "case": "cancellinus",
+        "line": 37,
+        "page": 113,
+        "print_count": 1,
+        "reading": "An expedition ticket carries station 1, Distortrix cancellinus Roissy and 37 m. Modern label carries Distorsio reticularis, Siboga st.1, Madura Strait, 37 m, 7 III 1899. The physical label associates these two usages for this museum lot although the authorship of Distortrix cancellinus in WoRMS differs.",
+        "source_image_sha256": {
+          "https://medialib.naturalis.nl/file/id/ZMA.MOLL.31943/format/large": "529ca5ff743e79d4ab6cc56a7276a129d52649efc7ef0cd1da0916658a439472"
+        },
+        "station": "1"
+      },
+      "museum_count": 1,
+      "photographs": [
+        {
+          "license": "CC0 1.0",
+          "local": "labels/ZMA.MOLL.31943.jpg",
+          "owner": "Naturalis Biodiversity Center",
+          "rights_request": "90da4d5c043fb170",
+          "sha256": "529ca5ff743e79d4ab6cc56a7276a129d52649efc7ef0cd1da0916658a439472",
+          "url": "https://medialib.naturalis.nl/file/id/ZMA.MOLL.31943/format/large"
+        }
+      ],
+      "request": "34b172427cc458b8",
+      "unit": "ZMA.MOLL.31943",
+      "url": "https://data.biodiversitydata.nl/naturalis/specimen/ZMA.MOLL.31943"
+    }
+  ]
+}
