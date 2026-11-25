@@ -1,0 +1,229 @@
+{
+  "gold_mentions": 37,
+  "methods": {
+    "tesseract": {
+      "proposed": 34,
+      "correct": 32,
+      "precision": 0.9411764705882353,
+      "recall": 0.8648648648648649,
+      "by_kind": {
+        "collection": {
+          "correct": 29,
+          "total": 32
+        },
+        "repeat": {
+          "correct": 1,
+          "total": 1
+        },
+        "collection_unidentified": {
+          "correct": 2,
+          "total": 4
+        }
+      },
+      "matches": {
+        "siboga-p110-m01": 11,
+        "siboga-p110-m02": 12,
+        "siboga-p110-m03": 13,
+        "siboga-p110-m04": 14,
+        "siboga-p110-m05": 28,
+        "siboga-p111-m01": 9,
+        "siboga-p111-m02": 15,
+        "siboga-p111-m03": 16,
+        "siboga-p111-m04": 17,
+        "siboga-p111-m05": 27,
+        "siboga-p111-m06": 28,
+        "siboga-p111-m07": 29,
+        "siboga-p111-m08": 30,
+        "siboga-p111-m09": 31,
+        "siboga-p111-m10": 41,
+        "siboga-p112-m01": 9,
+        "siboga-p112-m03": 11,
+        "siboga-p112-m04": 20,
+        "siboga-p112-m05": 21,
+        "siboga-p112-m06": 22,
+        "siboga-p112-m07": 28,
+        "siboga-p112-m08": 29,
+        "siboga-p112-m10": 31,
+        "siboga-p112-m12": 34,
+        "siboga-p112-m13": 37,
+        "siboga-p112-m16": 38,
+        "siboga-p113-m01": 6,
+        "siboga-p113-m02": 29,
+        "siboga-p113-m03": 30,
+        "siboga-p113-m04": 37,
+        "siboga-p113-m05": 39,
+        "siboga-p113-m06": 40
+      },
+      "false_positives": [
+        {
+          "page": "siboga-p112",
+          "line": 30,
+          "method": "tesseract",
+          "station": "49",
+          "box": [
+            321,
+            1767,
+            638,
+            1795
+          ],
+          "context": "Stat. 49*. Sapeh-strait. 6g M. Coral and shells. 1 Spec."
+        },
+        {
+          "page": "siboga-p112",
+          "line": 32,
+          "method": "tesseract",
+          "station": "7",
+          "box": [
+            321,
+            1842,
+            428,
+            1869
+          ],
+          "context": "Stat. 7"
+        }
+      ],
+      "missed_ids": [
+        "siboga-p112-m02",
+        "siboga-p112-m09",
+        "siboga-p112-m11",
+        "siboga-p112-m14",
+        "siboga-p112-m15"
+      ]
+    },
+    "trocr": {
+      "proposed": 33,
+      "correct": 31,
+      "precision": 0.9393939393939394,
+      "recall": 0.8378378378378378,
+      "by_kind": {
+        "collection": {
+          "correct": 28,
+          "total": 32
+        },
+        "repeat": {
+          "correct": 1,
+          "total": 1
+        },
+        "collection_unidentified": {
+          "correct": 2,
+          "total": 4
+        }
+      },
+      "matches": {
+        "siboga-p110-m01": 11,
+        "siboga-p110-m02": 12,
+        "siboga-p110-m03": 13,
+        "siboga-p110-m04": 14,
+        "siboga-p110-m05": 28,
+        "siboga-p111-m01": 9,
+        "siboga-p111-m02": 15,
+        "siboga-p111-m03": 16,
+        "siboga-p111-m04": 17,
+        "siboga-p111-m05": 27,
+        "siboga-p111-m06": 28,
+        "siboga-p111-m07": 29,
+        "siboga-p111-m08": 30,
+        "siboga-p111-m09": 31,
+        "siboga-p111-m10": 41,
+        "siboga-p112-m01": 9,
+        "siboga-p112-m03": 11,
+        "siboga-p112-m04": 20,
+        "siboga-p112-m05": 21,
+        "siboga-p112-m06": 22,
+        "siboga-p112-m07": 28,
+        "siboga-p112-m08": 29,
+        "siboga-p112-m10": 31,
+        "siboga-p112-m12": 34,
+        "siboga-p112-m13": 37,
+        "siboga-p112-m16": 38,
+        "siboga-p113-m01": 6,
+        "siboga-p113-m02": 29,
+        "siboga-p113-m03": 30,
+        "siboga-p113-m05": 39,
+        "siboga-p113-m06": 40
+      },
+      "false_positives": [
+        {
+          "page": "siboga-p112",
+          "line": 30,
+          "method": "trocr",
+          "station": "49",
+          "box": [
+            321,
+            1767,
+            638,
+            1795
+          ],
+          "context": "STAT. 49'. SAPEL-STRAIT. 69 M. CORAL AND SHELLS. I SPEC."
+        },
+        {
+          "page": "siboga-p112",
+          "line": 32,
+          "method": "trocr",
+          "station": "7",
+          "box": [
+            321,
+            1842,
+            428,
+            1869
+          ],
+          "context": "STAT. 7"
+        }
+      ],
+      "missed_ids": [
+        "siboga-p112-m02",
+        "siboga-p112-m09",
+        "siboga-p112-m11",
+        "siboga-p112-m14",
+        "siboga-p112-m15",
+        "siboga-p113-m04"
+      ]
+    }
+  },
+  "paired": {
+    "both": [
+      "siboga-p110-m01",
+      "siboga-p110-m02",
+      "siboga-p110-m03",
+      "siboga-p110-m04",
+      "siboga-p110-m05",
+      "siboga-p111-m01",
+      "siboga-p111-m02",
+      "siboga-p111-m03",
+      "siboga-p111-m04",
+      "siboga-p111-m05",
+      "siboga-p111-m06",
+      "siboga-p111-m07",
+      "siboga-p111-m08",
+      "siboga-p111-m09",
+      "siboga-p111-m10",
+      "siboga-p112-m01",
+      "siboga-p112-m03",
+      "siboga-p112-m04",
+      "siboga-p112-m05",
+      "siboga-p112-m06",
+      "siboga-p112-m07",
+      "siboga-p112-m08",
+      "siboga-p112-m10",
+      "siboga-p112-m12",
+      "siboga-p112-m13",
+      "siboga-p112-m16",
+      "siboga-p113-m01",
+      "siboga-p113-m02",
+      "siboga-p113-m03",
+      "siboga-p113-m05",
+      "siboga-p113-m06"
+    ],
+    "only_tesseract": [
+      "siboga-p113-m04"
+    ],
+    "only_trocr": [],
+    "neither": [
+      "siboga-p112-m02",
+      "siboga-p112-m09",
+      "siboga-p112-m11",
+      "siboga-p112-m14",
+      "siboga-p112-m15"
+    ]
+  }
+}
