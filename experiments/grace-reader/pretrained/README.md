@@ -27,7 +27,7 @@ python3 evaluate.py > /tmp/station-reader-scores.json
 diff results/scores.json /tmp/station-reader-scores.json
 ```
 
-To regenerate the GPU predictions, supply paths for the checkpoint cache and new outputs. Grace used Python 3.11.15, PyTorch 2.11.0+cu129, Transformers 5.15.0, Pillow 12.2.0, SentencePiece, and one NVIDIA RTX A6000. Download the public files pinned in the manifest before scheduling offline inference. The inference script verifies the model weight hashes and records the hashes of all input model files and output predictions. [Pinned model revisions](models.json) · [Grace runtime and checksums](results/runtime.json)
+To regenerate the GPU predictions, supply paths for the checkpoint cache and new outputs. Both readers ran on one NVIDIA RTX A6000 GPU on the cluster node named Grace. The software environment used Python 3.11.15, PyTorch 2.11.0+cu129, Transformers 5.15.0, Pillow 12.2.0 and SentencePiece. Download the public files pinned in the manifest before scheduling offline inference. The inference script verifies the model weight hashes and records the hashes of all input model files and output predictions. [Pinned model revisions](models.json) · [GPU runtime and checksums](results/runtime.json)
 
 ```sh
 python3 fetch.py /path/to/weights

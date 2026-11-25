@@ -37,7 +37,7 @@ All six public-domain BHL scans and raw OCR files have download URLs and SHA-256
 tesseract sources/32372956.jp2 /tmp/page15 --tessdata-dir "$TESSDATA_DIR" -l deu --psm 6
 ```
 
-## What would justify fine-tuning on Grace?
+## What would justify fine-tuning a station reader?
 
 Build a collection of paired scan crops and verified station lines from additional expeditions. Include correct easy lines, damaged numbers, non-occurrence comparisons and lines that use specimen counts or depths. Record an evidence crop and allow abstention. Split by report or expedition and keep reprints of the same material in the same split. Reserve these six inspected pages for regression testing.
 

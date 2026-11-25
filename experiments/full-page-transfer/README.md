@@ -6,7 +6,7 @@ Where did the *Siboga* collect a shell in Sapeh Strait? Two automatic readers pr
 
 ## What changed on full pages
 
-We froze four consecutive pages, 110–113, of Schepman’s 1909 gastropod report from the 1899–1900 Siboga Expedition. This expedition had supplied no calibration pages. Tesseract located text on every complete scan. We ran the previously selected TrOCR weights on Grace on every one of the 497 short segments in 156 detected lines. Each pipeline extracted station mentions from its own reassembled text. An independent worker kept all reference boxes and transcriptions sealed while these predictions were produced. On a previously seen Challenger calibration page, both methods found all three known station headings. [Source edition and reconstruction](corpus/README.md) · [Frozen protocol](PROTOCOL.md) · [Prediction commitment](https://github.com/harsh-kumar9/marine-ledger/commit/80b99f1)
+We froze four consecutive pages, 110–113, of Schepman’s 1909 gastropod report from the 1899–1900 Siboga Expedition. This expedition had supplied no calibration pages. Tesseract located text on every complete scan. We used one NVIDIA RTX A6000 GPU to run the previously selected TrOCR weights on all 497 short segments in 156 detected lines. Each pipeline extracted station mentions from its own reassembled text. An independent worker kept all reference boxes and transcriptions sealed while these predictions were produced. On a previously seen Challenger calibration page, both methods found all three known station headings. [Source edition and reconstruction](corpus/README.md) · [Frozen protocol](PROTOCOL.md) · [Prediction commitment](https://github.com/harsh-kumar9/marine-ledger/commit/80b99f1)
 
 | Full-page output | Proposed mentions | Correct, in place | Recall across 37 mentions | Correct numbered mentions in named-species material |
 |---|---:|---:|---:|---:|
@@ -44,7 +44,7 @@ diff results/scores.json /tmp/siboga-scores.json
 python3 casebook.py
 ```
 
-To rerun inference, use Tesseract 5.1.0, English LSTM, PSM 3; the exact PNGs and selected Tesseract layouts are committed. Use the model weights from the [frozen checkpoint downloader](../grace-reader/pretrained/fetch.py). The [control](control/runtime.json) and [transfer](results/runtime.json) receipts record the file hashes, software and device. Grace jobs 520871 and 520875 completed in 26 and 45 seconds respectively on one NVIDIA RTX A6000. The scorer requires each reference center to fall inside a segment with the right station number. Each prediction can count once.
+To rerun inference, use Tesseract 5.1.0, English LSTM, PSM 3; the exact PNGs and selected Tesseract layouts are committed. Use the model weights from the [frozen checkpoint downloader](../grace-reader/pretrained/fetch.py). The [control](control/runtime.json) and [transfer](results/runtime.json) receipts record the file hashes, software and device. On the cluster node named Grace, the control job (520871) took 26 seconds and the transfer job (520875) took 45 seconds. The scorer requires each reference center to fall inside a segment with the right station number. Each prediction can count once.
 
 ```sh
 python3 layout.py corpus/pages.jsonl /tmp/siboga-layout.jsonl

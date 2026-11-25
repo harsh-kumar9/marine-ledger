@@ -1,15 +1,15 @@
-# Can a Grace-trained reader beat OCR on a new expedition?
+# Can a reader trained on expedition scans beat OCR on a new expedition?
 
-**On this Challenger report, ordinary OCR recovered more complete station identifiers.** The adapted reader got 25 of 31 right. The preregistered Tesseract configuration got 26, and the configuration selected on the separate Ingolf report got 27. This experiment supplies the location of each printed field. An end-to-end expedition reader would also need to locate the field and associate it with the correct taxon or event.
+**On this Challenger report, ordinary OCR recovered more complete station identifiers.** We trained the reader on one NVIDIA RTX A6000 GPU. It got 25 of 31 right. The preregistered Tesseract configuration got 26, and the configuration selected on the separate Ingolf report got 27. This experiment supplies the location of each printed field. An end-to-end expedition reader would also need to locate the field and associate it with the correct taxon or event.
 
 | Reader | Exact identifiers on Challenger | Character edits / 94 characters |
 |---|---:|---:|
 | Tesseract, preregistered single-word setting | 26 / 31 (83.9%) | 7 |
 | Tesseract, validation-selected single-line setting | 27 / 31 (87.1%) | 5 |
 | Neural reader trained on synthetic text | 27 / 31 (87.1%) | 4 |
-| Same reader after adaptation to real expedition crops on Grace | 25 / 31 (80.6%) | 6 |
+| Same reader after adaptation to real expedition crops | 25 / 31 (80.6%) | 6 |
 
-A follow-up ran two published Hugging Face checkpoints on Grace and two independent Luna subagents on the same fields. All four recovered the 31 Challenger identifiers. The labels were already public for that follow-up. [Pretrained readers, Luna and the shared Ingolf errors](pretrained/README.md)
+A follow-up ran two published Hugging Face checkpoints on the same GPU and two independent Luna subagents on the same fields. All four recovered the 31 Challenger identifiers. The labels were already public for that follow-up. [Pretrained readers, Luna and the shared Ingolf errors](pretrained/README.md)
 
 ## What transferred
 
@@ -21,7 +21,7 @@ The adapted reader and validation-selected OCR agreed on 23 readings, all correc
 
 ## Reproduce the comparison offline
 
-Run from this directory. Scoring uses only Python's standard library and the committed predictions. The two trained checkpoints are in `run/`. A CPU replay reproduced all 62 GPU predictions. Two fonts used during synthetic training lacked the target glyphs. The training commit and subsequent correction are documented in the run record. [Grace jobs, environment and inference](RUN.md) · [Primary OCR](primary-ocr/README.md) · [Secondary baseline protocol](comparison-plan.md) · [Model freeze receipt](run/freeze.json)
+Run from this directory. Scoring uses only Python's standard library and the committed predictions. The two trained checkpoints are in `run/`. A CPU replay reproduced all 62 GPU predictions. Two fonts used during synthetic training lacked the target glyphs. The training commit and subsequent correction are documented in the run record. [GPU jobs, environment and inference](RUN.md) · [Primary OCR](primary-ocr/README.md) · [Secondary baseline protocol](comparison-plan.md) · [Model freeze receipt](run/freeze.json)
 
 ```sh
 python3 compare_ocr.py paired --gold corpus/test-gold.jsonl --inputs corpus/test.jsonl \

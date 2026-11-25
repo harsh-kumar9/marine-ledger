@@ -1,10 +1,10 @@
-# Grace reader run, November 25, 2026
+# Reader training on an NVIDIA RTX A6000 GPU, November 25, 2026
 
-Two 657–658 KiB checkpoints and their blind predictions are in [run](run/). The run used one NVIDIA RTX A6000, driver 570.195.03, Python 3.11.15, PyTorch 2.11.0+cu129, NumPy 2.4.4 and Pillow 12.2.0. All GPU operations went through the Grace node in the `ashton` SLURM partition.
+Two 657–658 KiB checkpoints and their blind predictions are in [run](run/). The run used one NVIDIA RTX A6000 GPU with driver 570.195.03, Python 3.11.15, PyTorch 2.11.0+cu129, NumPy 2.4.4 and Pillow 12.2.0. The GPU jobs ran on the cluster node named Grace in the `ashton` SLURM partition.
 
 | SLURM job | Stage | Elapsed | Outcome |
 |---|---|---:|---|
-| 520752 | Hardware and filesystem canary | 10 s | Identified the A6000 and Grace-visible working directory. System Python lacked PyTorch. |
+| 520752 | Hardware and filesystem canary | 10 s | Confirmed the GPU model and a working directory accessible from the node. System Python lacked PyTorch. |
 | 520754 | Conda CUDA check | 21 s | GPU convolution succeeded. The final optional font-directory listing returned status 2 for a missing directory. |
 | 520762 | First synthetic fit | 34 s | 128/160 exact on a synthetic check. Subsequent development increased training steps and varied separators before looking at archive validation accuracy. |
 | 520765 | Selected synthetic fit | 59 s | 2,200 optimization steps on 12,288 generated images. Reached 138/160 on a separate generated check. |
